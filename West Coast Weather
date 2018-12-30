@@ -2,124 +2,106 @@
 <head>
 </head>
 <body>
-<div style="text-align:right; display:grid">
-<p style="line-height: 18px; font-size: 20px;  font-family: times; color:darkslategrey; align-text:right; background-color:lightGrey; color:black; justify-self:right; border:2px solid teal; padding-top:5px; padding-bottom:10px; padding-right:50px">
-<img src="https://westcoastweather.com/wp-content/uploads/2014/01/wcw_logo_sm.png" style="float:left" />
-<br>We are a team with more than 40 years of combined experience and expertise in forensic meteorology that offers forensic weather expert witness testimony. Serving clients worldwide in cases of lawsuits and insurance claims involving forensic meteorological cases.
-</p>
-</div>
+    <div style="text-align:right; display:grid">
+        <p style="line-height: 18px; font-size: 20px;  font-family: times; color:darkslategrey; align-text:right; background-color:lightGrey; color:black; justify-self:right; border:2px solid teal; padding-top:5px; padding-bottom:10px; padding-right:50px">
+        <img src="https://westcoastweather.com/wp-content/uploads/2014/01/wcw_logo_sm.png" style="float:left" />
+        <br>We are a team with more than 40 years of combined experience and expertise in forensic meteorology that offers forensic weather expert witness testimony. Serving clients worldwide in cases of lawsuits and insurance claims involving forensic meteorological cases.
+    </p>
+    </div>
 
-<style>
-.container {display:grid;
-border: 2px solid teal;
-grid-template-areas: "nav article ads";
-background-color:lightGrey;
-}
-</style>
+    <style>
+        .container {display:grid;
+        border: 2px solid teal;
+        grid-template-areas: "nav article ads";
+        background-color:lightGrey;
+        }
+    </style>
 
-<div>
-<a href="https://www.westcoastweather.com/"><button class="button" onclick="https://www.westcoastweather.com/" style="color:white; background-color:darkslategrey; height: 45px; font-size:20px; padding-left:30px; padding-right:30px"><strong>Home</strong></button></a>
-<a href="https://www.westcoastweather.com/our-weather-team/"><button class="button" onclick="https://www.westcoastweather.com/our-weather-team/" style="color:white; background-color:darkslategrey; height: 45px; font-size:20px; padding-left:30px; padding-right:30px"><strong>West Coast Weather - Your Weather Experts</strong></button></a>
-<a href="https://www.westcoastweather.com/services/"> <button class="dropbtn" onclick="myFunction()" style="color:white; background-color:darkslategrey; height: 45px; padding-left:30px; padding-right:30px; font-size:20px"><strong>Services</strong></button></a>  
-<a href="https://www.westcoastweather.com/case-studies/"> <button class="button" onclick="https://www.westcoastweather.com/case-studies/" style="color:white; background-color:darkslategrey; height: 45px; font-size:20px; padding-left:30px; padding-right:30px"><strong>Case Studies</strong></button></a>
-<a href="https://www.westcoastweather.com/links/"> <button class="button" onclick="https://www.westcoastweather.com/links/" style="color:white; background-color:darkslategrey; padding-left:30px; padding-right:30px; height: 45px; font-size:20px"><strong>Links</strong></button></a>
-<a href="https://www.westcoastweather.com/blog/"> <button class="button" onclick="https://www.westcoastweather.com/blog/" style="color:white; background-color:darkslategrey; height: 45px; padding-left:30px; padding-right:30px; font-size:20px"><strong>Blog</strong></button></a>
-<a href="https://www.westcoastweather.com/contact/"> <button class="button" onclick="https://www.westcoastweather.com/contact/" style="color:white; background-color:darkslategrey; padding-left:30px; padding-right:30px; height: 45px; font-size:20px"><strong>Contact</strong></button></a>
-</div>
+    <div>
+    <a href="https://www.westcoastweather.com/"><button class="button" onclick="https://www.westcoastweather.com/" style="color:white; background-color:darkslategrey; height: 45px; font-size:20px; padding-left:30px; padding-right:30px"><strong>Home</strong></button></a>
+    <a href="https://www.westcoastweather.com/our-weather-team/"><button class="button" onclick="https://www.westcoastweather.com/our-weather-team/" style="color:white; background-color:darkslategrey; height: 45px; font-size:20px; padding-left:30px; padding-right:30px"><strong>West Coast Weather - Your Weather Experts</strong></button></a>
+    <a href="https://www.westcoastweather.com/services/"> <button class="dropbtn" onclick="myFunction()" style="color:white; background-color:darkslategrey; height: 45px; padding-left:30px; padding-right:30px; font-size:20px"><strong>Services</strong></button></a>  
+    <a href="https://www.westcoastweather.com/case-studies/"> <button class="button" onclick="https://www.westcoastweather.com/case-studies/" style="color:white; background-color:darkslategrey; height: 45px; font-size:20px; padding-left:30px; padding-right:30px"><strong>Case Studies</strong></button></a>
+    <a href="https://www.westcoastweather.com/links/"> <button class="button" onclick="https://www.westcoastweather.com/links/" style="color:white; background-color:darkslategrey; padding-left:30px; padding-right:30px; height: 45px; font-size:20px"><strong>Links</strong></button></a>
+    <a href="https://www.westcoastweather.com/blog/"> <button class="button" onclick="https://www.westcoastweather.com/blog/" style="color:white; background-color:darkslategrey; height: 45px; padding-left:30px; padding-right:30px; font-size:20px"><strong>Blog</strong></button></a>
+    <a href="https://www.westcoastweather.com/contact/"> <button class="button" onclick="https://www.westcoastweather.com/contact/" style="color:white; background-color:darkslategrey; padding-left:30px; padding-right:30px; height: 45px; font-size:20px"><strong>Contact</strong></button></a>
+    </div>
 
-<div class="loopphotos" >
-<img class="loopphotos.photoloop()" style="margin-left: auto; margin-right: auto"/>
-</div>
+    <div class="loopphotos" >
+        <img class="loopphotos.photoloop()" style="margin-left: auto; margin-right: auto"/>
+    </div>
 
-<h2 style="color:darkslategrey; text-align:center">Forensic Weather Expert Witness Testimony</h2>
-<p style="text-align:center">Headquartered in Redmond, WA, we serve clients both locally and internationally. In cases of aviation accidents, our clients rely on us for comprehensive historical weather data, investigations, reports, and expert testimony in depositions, trials, or insurance claims investigations. We retrieve historical weather from weather stations, radar and satellite imagery and upper level weather maps. This historical data is used to prepared a detailed meteorological report that is often used in court. Also, we are trusted forecasters to various branches of the U.S. government, school districts, and mountain expedition climb-leaders.</p>
+    <h2 style="color:darkslategrey; text-align:center">Forensic Weather Expert Witness Testimony</h2>
+    <p style="text-align:center">Headquartered in Redmond, WA, we serve clients both locally and internationally. In cases of aviation accidents, our clients rely on us for comprehensive historical weather data, investigations, reports, and expert testimony in depositions, trials, or insurance claims investigations. We retrieve historical weather from weather stations, radar and satellite imagery and upper level weather maps. This historical data is used to prepared a detailed meteorological report that is often used in court. Also, we are trusted forecasters to various branches of the U.S. government, school districts, and mountain expedition climb-leaders.</p>
 
-<div class="container">
-<div style="grid-area:nav">
-<p style="text-align:left; font-size:19px; color:darkRed; text-decoration:underline"><strong>What is Forensic Meteorology?</strong></p>
-<p style="text-align:left">
-Forensic meteorology is the science of researching and reconstructing specific weather events for a given date, time, and location anywhere in the world.
-</p>
-<p style=" text-align:left">
-<a href="https://westcoastweather.com/historical-weather-data/">Historical weather data</a> can be obtained by a professional forensic meteorologist from a variety of sources including radar and satellite data, weather reports, and even eyewitness accounts in some cases. For example cases of how weather data can be used <a href="https://westcoastweather.com/case-studies/">view this page</a>.
-</p>
-</div>
-<div style="grid-area:article; padding-left:30px; padding-right:30px;">
-<p style="text-align:center; font-size:19px; color:darkRed; text-decoration:underline"><strong>How Historical Weather Data is Used</strong></p>
-<p style="text-align:center">
-The data compiled by a Forensic Meteorologist is typically used by lawyers, insurance companies, airlines, home owners, and government agencies.
-</p>
-<p style="text-align:center">
-For depositions and trials, legal professionals use historical weather data and reconstruction reports for discovery, and forensic weather expert witness testimony in trials. Insurance companies ask for similar historical weather reports in claims disputes.
-</p>
-</div>
-<div style="grid-area:ads">
-<p style="text-align:right; font-size:19px; color:darkRed; text-decoration:underline"><strong>Our Forensic Services</strong></p>
-<p style="text-align:right">
-As a client of West Coast Weather, you will receive reliable and accurate expert weather services and forensic analysis including:
-</p>
-<p style="text-align:right">
-* Past Winter Weather Damage and Accidents – Frost, slip and fall, blizzard, and more.
-</p>
-<p style="text-align:right">
-* Severe weather damage – Hurricanes, tornados, flash floods, thunderstorms and more
-</p>
-<p style="text-align:right">
-* Aircraft weather related accidents – Icing or clear air turbulence?
-</p>
-<p style="text-align:right">
-* Historical weather – The core of forensic meteorology
-</p>
-<p style="text-align:right">
-* Other weather – forest fire weather damage, fog accidents involving weather, maritime weather related accidents, custom weather forecasting worldwide
-</p>
-<p style="text-align:right">
-* You <a href="https://westcoastweather.com/contact/">can contact here</a>
-</p>
-</div>
-</div>
+    <div class="container">
+        <div style="grid-area:nav">
+            <p style="text-align:left; font-size:19px; color:darkRed; text-decoration:underline"><strong>What is Forensic Meteorology?</strong></p>
+            <p style="text-align:left">
+            Forensic meteorology is the science of researching and reconstructing specific weather events for a given date, time, and location anywhere in the world.
+            </p>
+            <p style=" text-align:left">
+            <a href="https://westcoastweather.com/historical-weather-data/">Historical weather data</a> can be obtained by a professional forensic meteorologist from a variety of sources including radar and satellite data, weather reports, and even eyewitness accounts in some cases. For example cases of how weather data can be used <a href="https://westcoastweather.com/case-studies/">view this page</a>.
+            </p>
+        </div>
+    <div style="grid-area:article; padding-left:30px; padding-right:30px;">
+        <p style="text-align:center; font-size:19px; color:darkRed; text-decoration:underline"><strong>How Historical Weather Data is Used</strong></p>
+        <p style="text-align:center"> The data compiled by a Forensic Meteorologist is typically used by lawyers, insurance companies, airlines, home owners, and government agencies. </p>
+        <p style="text-align:center"> For depositions and trials, legal professionals use historical weather data and reconstruction reports for discovery, and forensic weather expert witness testimony in trials. Insurance companies ask for similar historical weather reports in claims disputes. </p>
+    </div>
+        <div style="grid-area:ads">
+            <p style="text-align:right; font-size:19px; color:darkRed; text-decoration:underline"><strong>Our Forensic Services</strong></p>
+            <p style="text-align:right"> As a client of West Coast Weather, you will receive reliable and accurate expert weather services and forensic analysis including: </p>
+            <p style="text-align:right"> * Past Winter Weather Damage and Accidents – Frost, slip and fall, blizzard, and more. </p>
+            <p style="text-align:right"> * Severe weather damage – Hurricanes, tornados, flash floods, thunderstorms and more </p>
+            <p style="text-align:right"> * Aircraft weather related accidents – Icing or clear air turbulence? </p>
+            <p style="text-align:right"> * Historical weather – The core of forensic meteorology </p>
+            <p style="text-align:right"> * Other weather – forest fire weather damage, fog accidents involving weather, maritime weather related accidents, custom weather forecasting worldwide </p>
+            <p style="text-align:right"> * You <a href="https://westcoastweather.com/contact/">can contact here</a> </p>
+        </div>
+    </div>
 
 </body>
 
 
 <footer style="background-color:grey">
-<a href="https://blog.feedspot.com/weather_blogs/">
-<img src="https://blog.feedspot.com/wp-content/uploads/2018/01/weather_216px.png?x13245"/>
-<a href="https://blog.feedspot.com/weather_blogs/">
-<img src="https://westcoastweather.com/wp-content/uploads/2014/01/facebook.gif" style="align-items:right"/> </a>
-<a href="https://twitter.com/weatherlegal">
-<img src="https://westcoastweather.com/wp-content/uploads/2014/01/twitter.png" style="align-items: right"/> </a>
-<p style="text-align:center; color:white">© Copyright 2015 · West Coast Weather · All Rights Reserved</p>
-<div style="text-align:center">
-<strong><a href="https://www.westcoastweather.com/" style="font-size:18px; color:white">Home</a></strong> <span></span>
-<strong><a href="https://www.westcoastweather.com/services/" style="font-size:18px; color:white">  Services</a></strong> <span></span>
-<strong><a href="https://www.westcoastweather.com/case-studies/" style="font-size:18px; color:white">  Case Studies</a></strong> <span></span>
-<strong><a href="https://www.westcoastweather.com/contact/" style="font-size:18px; color:white">  Contact</a> </strong>
-</div>
+    <a href="https://blog.feedspot.com/weather_blogs/">
+    <img src="https://blog.feedspot.com/wp-content/uploads/2018/01/weather_216px.png?x13245"/>
+    <a href="https://blog.feedspot.com/weather_blogs/">
+    <img src="https://westcoastweather.com/wp-content/uploads/2014/01/facebook.gif" style="align-items:right"/> </a>
+    <a href="https://twitter.com/weatherlegal">
+    <img src="https://westcoastweather.com/wp-content/uploads/2014/01/twitter.png" style="align-items: right"/> </a>
+    <p style="text-align:center; color:white">© Copyright 2015 · West Coast Weather · All Rights Reserved</p>
+    <div style="text-align:center">
+    <strong><a href="https://www.westcoastweather.com/" style="font-size:18px; color:white">Home</a></strong> <span></span>
+    <strong><a href="https://www.westcoastweather.com/services/" style="font-size:18px; color:white">  Services</a></strong> <span></span>
+    <strong><a href="https://www.westcoastweather.com/case-studies/" style="font-size:18px; color:white">  Case Studies</a></strong> <span></span>
+    <strong><a href="https://www.westcoastweather.com/contact/" style="font-size:18px; color:white">  Contact</a> </strong>
+    </div>
 </footer>
 
 <script type="text/javascript" class="loopphotos">
-function photoloop() {
-var mypics = ["https://westcoastweather.com/wp-content/uploads/2014/01/tornado-slide.jpg",
-"https://westcoastweather.com/wp-content/uploads/2014/01/lightning-strike-slide.jpg",
-"https://westcoastweather.com/wp-content/uploads/2014/01/hurricane-slide.jpg",
-"https://westcoastweather.com/wp-content/uploads/2014/01/sunset-slide.jpg",
-"https://westcoastweather.com/wp-content/uploads/2014/01/waterspout-slide.jpg",
-"https://westcoastweather.com/wp-content/uploads/2014/01/dust-storm-slide.jpg",
-"https://westcoastweather.com/wp-content/uploads/2014/01/horizon-slide.jpg"];
-var totalpics = mypics.length;
-var i = 0;
-var imgurl = mypics[i];
-function loop() {
-if(i > (totalpics - 1)){
-    i = 0;
-}
-show(mypics[i]);
-mypics.innerHTML = "<img src="'+imgurl+'" />";
-i++;
-loopTimer = setTimeout('loop()',3000);
-}
+    function photoloop() {
+    var mypics = ["https://westcoastweather.com/wp-content/uploads/2014/01/tornado-slide.jpg",
+    "https://westcoastweather.com/wp-content/uploads/2014/01/lightning-strike-slide.jpg",
+    "https://westcoastweather.com/wp-content/uploads/2014/01/hurricane-slide.jpg",
+    "https://westcoastweather.com/wp-content/uploads/2014/01/sunset-slide.jpg",
+    "https://westcoastweather.com/wp-content/uploads/2014/01/waterspout-slide.jpg",
+    "https://westcoastweather.com/wp-content/uploads/2014/01/dust-storm-slide.jpg",
+    "https://westcoastweather.com/wp-content/uploads/2014/01/horizon-slide.jpg"];
+    var totalpics = mypics.length;
+    var i = 0;
+    var imgurl = mypics[i];
+    function loop() {
+    if(i > (totalpics - 1)){
+        i = 0;
+    }
+    show(mypics[i]);
+    mypics.innerHTML = "<img src="'+imgurl+'" />";
+    i++;
+    loopTimer = setTimeout('loop()',3000);
+    }
 
-loop();
-}
+    loop();
+    }
 </script>
