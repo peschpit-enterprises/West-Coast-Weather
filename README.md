@@ -1,3 +1,5 @@
+{::options parse_block_html="true" /}
+
 # How to use GitLab
 
 ## Creating a new file
