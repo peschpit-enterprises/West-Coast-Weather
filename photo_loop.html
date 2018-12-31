@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" class="loopphotos">
+            function photoloop() {
+            var mypics = ["https://westcoastweather.com/wp-content/uploads/2014/01/tornado-slide.jpg",
+            "https://westcoastweather.com/wp-content/uploads/2014/01/lightning-strike-slide.jpg",
+            "https://westcoastweather.com/wp-content/uploads/2014/01/hurricane-slide.jpg",
+            "https://westcoastweather.com/wp-content/uploads/2014/01/sunset-slide.jpg",
+            "https://westcoastweather.com/wp-content/uploads/2014/01/waterspout-slide.jpg",
+            "https://westcoastweather.com/wp-content/uploads/2014/01/dust-storm-slide.jpg",
+            "https://westcoastweather.com/wp-content/uploads/2014/01/horizon-slide.jpg"];
+            var totalpics = mypics.length;
+            var i = 0;
+            var imgurl = mypics[i];
+            function loop() {
+            if(i > (totalpics - 1)){
+                i = 0;
+            }
+            show(mypics[i]);
+            mypics.innerHTML = "<img src="'+imgurl+'" />";
+            i++;
+            loopTimer = setTimeout('loop()',3000);
+            }
+        
+            loop();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="loopphotos" >
+            <img class="loopphotos.photoloop()" style="margin-left: auto; margin-right: auto"/>
+        </div>
+    </body>
+</html>
