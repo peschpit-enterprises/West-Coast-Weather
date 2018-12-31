@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" class="loopphotos">
-            function photoloop() {
-            var mypics = ["https://westcoastweather.com/wp-content/uploads/2014/01/tornado-slide.jpg",
-            "https://westcoastweather.com/wp-content/uploads/2014/01/lightning-strike-slide.jpg",
-            "https://westcoastweather.com/wp-content/uploads/2014/01/hurricane-slide.jpg",
-            "https://westcoastweather.com/wp-content/uploads/2014/01/sunset-slide.jpg",
-            "https://westcoastweather.com/wp-content/uploads/2014/01/waterspout-slide.jpg",
-            "https://westcoastweather.com/wp-content/uploads/2014/01/dust-storm-slide.jpg",
-            "https://westcoastweather.com/wp-content/uploads/2014/01/horizon-slide.jpg"];
-            var totalpics = mypics.length;
-            var i = 0;
-            var imgurl = mypics[i];
-            function loop() {
-            if(i > (totalpics - 1)){
-                i = 0;
+        <style>
+            #rotating-item-wrapper {
+                position: relative;
+                width: 980px;
+                height: 347px;
             }
-            show(mypics[i]);
-            mypics.innerHTML = "<img src="'+imgurl+'" />";
-            i++;
-            loopTimer = setTimeout('loop()',3000);
+            .rotating-item {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
             }
-        
-            loop();
-            }
+        </style>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1">
         </script>
+        <script type="text/javascript" src="js/infinite-rotator.js">
+        </script>
+
+        $(window).load(function() { //start after HTML, images have loaded
+            var InfiniteRotator = {
+                init: function() {
+                    //initial fade-in time (in milliseconds)
+                    var initialFadeIn = 1000;
+ 
+                    //interval between items (in milliseconds)
+                    var itemInterval = 5000;
+ 
+                    //cross-fade time (in milliseconds)
+                    var fadeTime = 2500;
+ 
+                    //count number of items
+                    var numberOfItems = $('.rotating-item').length;
+ 
+                    //set current item
+                    var currentItem = 0;
+ 
+                    //show first item
+                    $('.rotating-item').eq(currentItem).fadeIn(initialFadeIn);
+ 
+                    //loop through the items
+                    var infiniteLoop = setInterval(function(){
+                        $('.rotating-item').eq(currentItem).fadeOut(fadeTime);
+ 
+                        if(currentItem == numberOfItems -1){
+                            currentItem = 0;
+                        }
+                        else{
+                            currentItem++;
+                        }
+                        $('.rotating-item').eq(currentItem).fadeIn(fadeTime);
+ 
+                    }, itemInterval);
+                }
+            };
+ 
+            InfiniteRotator.init();
+ 
+        });
     </head>
     <body>
-        <div class="loopphotos" >
-            <img class="loopphotos.photoloop()" style="margin-left: auto; margin-right: auto"/>
+        </pre>
+        <h1>Example of rotating images</h1>
+        <div id="rotating-item-wrapper">
+            <img class="rotating-item" src="https://westcoastweather.com/wp-content/uploads/2014/01/tornado-slide.jpg" width="980" height="347" />
+            <img class="rotating-item" src="https://westcoastweather.com/wp-content/uploads/2014/01/lightning-strike-slide.jpg" width="980" height="347" />
+            <img class="rotating-item" src="https://westcoastweather.com/wp-content/uploads/2014/01/hurricane-slide.jpg" width="980" height="347" />
+            <img class="rotating-item" src="https://westcoastweather.com/wp-content/uploads/2014/01/sunset-slide.jpg" width="980" height="347" />
+            <img class="rotating-item" src="https://westcoastweather.com/wp-content/uploads/2014/01/waterspout-slide.jpg" width="980" height="347" />
+            <img class="rotating-item" src= "https://westcoastweather.com/wp-content/uploads/2014/01/dust-storm-slide.jpg" width="980" height="347" />
+            <img class="rotating-item" src= "https://westcoastweather.com/wp-content/uploads/2014/01/horizon-slide.jpg" width="980" height="347" />
         </div>
+        <pre>
     </body>
 </html>
