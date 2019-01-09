@@ -5,12 +5,19 @@
 
 <body>
 <div class="container" style="border: 3px solid GoldenRod">
+<div style="grid-area:article">
 <h1> 1 STOP AUTO
 <br />
 <small> 1811 28th St. SW
 <br />Wyoming, MI 49519
 </small>
 </h1>
+</div>
+<div id="sign" style="grid-area:nav">
+  <div id="octagon"><p>1 STOP</p></div>
+  <div id="post"></div>
+</div>
+
 <img id="OneStop" src="https://ae01.alicdn.com/kf/HTB1d2FiRpXXXXbvXpXXq6xXFXXXI/Custom-Rat-Rod-Garage-One-Stop-Chop-Drop-Metal-Tin-Signs-For-Pub-Bar-Home-Wall.jpg_640x640q70.jpg_.webp" width="250px" height="250px" style="grid-area:ads"/>
 </div>
 
@@ -24,12 +31,12 @@
 Closed      Sunday
 </p>
 </h3>
-<img id="NascarFlags" src="https://i.ebayimg.com/images/g/z0IAAOSwX~dWtUo5/s-l500.jpg" class="rightSide" width="200px" height="200px"/>
+<img id="NascarFlags" src="https://i.ebayimg.com/images/g/z0IAAOSwX~dWtUo5/s-l500.jpg" class="rightSide" width="200px" height="200px" style="padding-top:40px"/>
 </div>
 
 <div class="container">
 <img id="MasterLubricants" src="https://www.happy-days-lyon.com/643/plaque-tole-master-lubricants.jpg" class="rightSide" width="160px" height="160px"/>
-<h3>We Work on:
+<h3>We Work On:
 <p> Everything but tires and alignments
 </p>
 <small> * We don't have an alignment rack
@@ -40,13 +47,24 @@ Closed      Sunday
 
 <div class="container">
 <img id="Storefront" src="https://www.google.com/maps/uv?hl=en&pb=!1s0x8819b1bc09feaa95:0x977da1419427ef94!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipPqB_34iV1IqSSmIgQO9G15VEQKdbTDxOiUY15_%3Dw284-h160-k-no!5sone+stop+auto+28th+street+-+Google+Search&imagekey=!1e10!2sAF1QipPqB_34iV1IqSSmIgQO9G15VEQKdbTDxOiUY15_&sa=X&ved=2ahUKEwiM8OTF_9bfAhXK7YMKHRi4ALwQoiowCnoECAYQBg#" style="grid-area:nav"/>
-<h3>Parking Directions
+<h3>Parking Directions:
+<br />
+Good Luck!
 </h3>
-<p>
-</p>
-<h4> Leaving Keys
-</h4>
-<p>
+<p style="text-align:center">FOR AFTER HOURS DROPOFF: <br />
+<p style="text-align:center; color:darkRed">Please place your key in an envelope or wrapped in a note with the following information:
+<br />
+1. The year, make and model of your vehicle
+<br />
+2. Your first and last name
+<br />
+3. A contact phone number
+<br />
+4. What we should check/replace on the vehicle.
+<br />
+Then, place the envelope in the exhuast hole located at the bottom of our front shop door. We will contact you the following business day.
+<br />
+Thank you!
 </p>
 <img id="GreaseMonkey" src="https://images.bonanzastatic.com/afu/images/1263/2697/25/grease_monkey.JPG" class="rightSide" width="250px" height="200px" style="grid-area:ads"/>
 </div>
@@ -61,6 +79,7 @@ font-family: helvetica;
 color: darkRed;
 padding-right:40px;
 }
+
 h3 {
 text-align:center;
 padding-top:35px;
@@ -71,6 +90,7 @@ h4 {
 grid-area:article;
 text-align:center;
 }
+
 p {
 font-size:15px;
 color:black;
@@ -108,6 +128,60 @@ font-weight:bold;
 span {
 color:red;
 }
+
+#octagon {
+  width: 110px;
+  height: 50px;
+  background: red;
+  position: relative;
+}
+
+#octagon:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  width: 50px;
+  height: 0;
+  border-bottom: 30px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+#octagon:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  width: 50px;
+  height: 0px;
+  border-top: 30px solid red;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+
+#octagon p {
+  color: white;
+  font-family: helvetica;
+  font-size: 30px;
+  line-height: 55px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 darkred;
+}
+
+#post {
+  height: 110px;
+  width: 10px;
+  background: -webkit-linear-gradient(right,lightgrey, grey);
+  margin: 30px 50px;
+}
+
+
+#sign {
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
 
 </style>
 
