@@ -14,7 +14,14 @@
 </h1>
 </div>
 <div id="sign" style="grid-area:nav; padding-right:60px">
-  <div id="octagon"><p>1 STOP</p></div>
+  <div id="octagon">
+  <p style="font-size:26px; line-height:20px">
+  STOP
+  <p />
+  <p style="font-size:12px">
+  AUTO REPAIR
+  </p>
+  </div>
   <div id="post"></div>
 </div>
 
@@ -35,7 +42,7 @@ Closed      Sunday
 </div>
 
 <div class="container">
-<img id="MasterLubricants" src="https://www.happy-days-lyon.com/643/plaque-tole-master-lubricants.jpg" class="rightSide" width="160px" height="160px"/>
+<img id="MasterLubricants" src="https://www.happy-days-lyon.com/643/plaque-tole-master-lubricants.jpg" class="rightSide" width="160px" height="160px" style="transform: rotate(10deg)"/>
 <h3>We Work On:
 <p> Everything but tires and alignments
 </p>
@@ -137,7 +144,12 @@ color:red;
 }
 
 #octagon:before {
-  content: "";
+  content: "1";
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  vertical-align: center;
   position: absolute;
   top: -30px;
   width: 50px;
@@ -145,6 +157,7 @@ color:red;
   border-bottom: 30px solid red;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
+  z-index: 1;
 }
 
 #octagon:after {
@@ -156,17 +169,20 @@ color:red;
   border-top: 30px solid red;
   border-right: 30px solid transparent;
   border-left: 30px solid transparent;
+  line-height: 0px;
+  z-index: 1;
 }
 
 #octagon p {
   color: white;
   font-family: helvetica;
-  font-size: 30px;
-  line-height: 55px;
+  font-size: 26px;
+  line-height: 0px;
   text-align: center;
   font-weight: bold;
   text-shadow: 0 -1px 0 darkred;
-}
+  z-index: 2;
+  }
 
 #post {
   height: 110px;
