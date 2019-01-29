@@ -5,11 +5,12 @@
 <style>
 body {
 border: 3px solid;
+padding: 8px;
 }
 
 .grid {
 display: grid;
-grid-area: auto;
+grid-template-areas: "nav ads";
 }
 
 #meterbox{
@@ -48,8 +49,9 @@ color: darkGrey;
 font-weight: bold;
 }
 
-small {
+.dates {
 text-align: center;
+font-size: 14px;
 }
 
 section {
@@ -70,15 +72,17 @@ grid-area: ads;
 <title>Geoff Linsley's Resume</title>
 
 <div class="grid">
+
 <div id="right">
 <h1>Meteorologist Geoff Linsley</h1>
 <address>
 261 Kenlock St. SE, Grand Rapids, MI<br />
 (269) 719-0786<br />
 geofflinsley@gmail.com
-<br /> <br /> <br /> <br />
+<br /> <br /> <br />
 </address>
 </div>
+
 <div id="meterbox" id="left">
 <label style="font-size: 19px; font-weight:bold; color:blue">CODING SKILLS</label><br />
 <meter value=".8"></meter><br />
@@ -105,42 +109,42 @@ within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranke
 
 <hr>
 
-<div class="grid">
+<article class="grid">
 
 <div id="left">
 <h3 style="color:purple">EDUCATION</h3>
-<h4>Cisco Certified Networking Associate (CCNA)</h4>
-<small>AUGUST 2018-2021</small>
-<p>Routing and Switching</p>
+<h4>Cisco Certified Networking Associate (CCNA) - Routing and Switching</h4>
+<p class="dates">AUGUST 2018-2021</p>
 <section>
 Demonstrated competencies in: OSPF, RIP, EIGRP, BGP, VLANs, UDP/TCP, WAN technologies,
 addressing, network architecture, network security, RADIUS, TACACS+, NAT, CLI, IPv4/IPv6, etc.<br />
 Cisco ID: CSCO13228163 | Validation ID: 133050566
 </section>
-<h4>CompTIA A+ Certification</h4>
-<small>AUGUST 2016-2019</small>
-<p>Computer software and hardware repair</p>
+<h4>CompTIA A+ Certification - Computer hardware and software repair</h4>
+<p class="dates">AUGUST 2016-2019</p>
 <section>
 CompTIA A+ certified computer repair and help desk technician, covering: hardware, networking,
 mobile devices, software troubleshooting, security, hardware and network troubleshooting,
 operational procedures, Windows, Mac OS X and Linux.<br />
 Registration #: 303659369 | Validation: 426898266
 </section>
-<h4>Texas Agriculture and Mechanical University - Bach. of Science, Meteorology</h4>
-<small>AUGUST 2012</small>
-<p>College Station, TX</p>
+<h4>Texas Agriculture and Mechanical University - College Station, TX</h4>
+<p class="dates">AUGUST 2012</p>
+<p style ="text-align: center;">Bach. of Science - Meteorology</p>
+</div>
 
 <div id="right">
-</div>
 <img srcset="http://media.graytvinc.com/images/810*607/aggies4.jpg 300w, https://cdn.shopify.com/s/files/1/2292/9413/products/ccna_1024x1024@2x.png?v=1503356032 300w, https://certification.comptia.org/UI/Assets/siteIcons/logoAPlus.svg 300w" />
 </div>
+</article>
 
 
-<div class="grid">
+<article class="grid">
+
 <div id="left">
 <h3 style="color:green">INFORMATION TECHNOLOGY EXPERIENCE</h3>
-<h4>TEKSystems contractor for MCPc, Grand Rapids,MI</h4>
-<small>NOVEMBER 2016 - JULY 2017</small>
+<h4>MCPc contractor for Spectrum Health, recruited by TEKSystems, Grand Rapids,MI</h4>
+<p class="dates">NOVEMBER 2016 - JULY 2017</p>
 <ul>
 <li>Implementation of Spectrum Health’s technology overhaul “NEXUS”</li>
 <li>Contracted ground-level troop for installations, troubleshooting and client relations</li>
@@ -149,10 +153,11 @@ Registration #: 303659369 | Validation: 426898266
 <li>Mapping of technology layouts using Visio and Protobase</li>
 </ul>
 </div>
+
 <div id="right">
 <h3 style="color:green">CUSTOMER SERVICE EXPERIENCE</h3>
 <h4> Night Auditor for Yarrow Golf and Conference Resort, Augusta, MI</h4>
-<small>MAY 2007 - NOVEMBER 2015</small>
+<p class="dates">MAY 2007 - NOVEMBER 2015</p>
 <ul>
 <li>Managed and patrolled the hotel grounds predominately alone</li>
 <li>Handled phone/face-to-face customer service issues and to suit the general needs of the
@@ -162,7 +167,8 @@ overnight guests</li>
 <li>Efficient nightly bookkeeping that staged easy mornings for the accountant</li>
 </ul>
 </div>
-</div>
+</article>
+
 </body>
 <script>
 </script>
