@@ -2,42 +2,6 @@
 <head>
 <meta charset="utf-8" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1">
-$(window).load(function() { //start after HTML, images have loaded
-            var InfiniteRotator = {
-                init: function() {
-                    //initial fade-in time (in milliseconds)
-                    var initialFadeIn = 0;
- 
-                    //interval between items (in milliseconds)
-                    var itemInterval = 4000;
- 
-                    //cross-fade time (in milliseconds)
-                    var fadeTime = 0;
- 
-                    //count number of items
-                    var numberOfItems = $('.rotating-item').length;
- 
-                    //set current item
-                    var currentItem = 0;
- 
-                    //show first item
-                    $('.rotating-item').eq(currentItem).fadeIn(initialFadeIn);
-
-                    //loop through the items
-                    var infiniteLoop = setInterval(function(){
-                        $('.rotating-item').eq(currentItem).fadeOut(fadeTime);
-                        if(currentItem == numberOfItems -1){
-                            currentItem = 0;
-                        }
-                        else{
-                            currentItem++;
-                        }
-                        $('.rotating-item').eq(currentItem).fadeIn(fadeTime);
-                    }, itemInterval);
-                }
-            };
-            InfiniteRotator.init();
-         });
 </script>
 </head>
 <style>
@@ -186,6 +150,44 @@ operational procedures, Windows, Mac OS X and Linux.<br />
     <img src="http://media.graytvinc.com/images/810*607/aggies4.jpg" width="500" height="500" />
     <img src="https://cdn.shopify.com/s/files/1/2292/9413/products/ccna_1024x1024@2x.png?v=1503356032" width="500" height="500" />
     <img src="https://certification.comptia.org/UI/Assets/siteIcons/logoAPlus.svg" width="500" height="500" />
+<script>
+$(window).load(function() { //start after HTML, images have loaded
+            var InfiniteRotator = {
+                init: function() {
+                    //initial fade-in time (in milliseconds)
+                    var initialFadeIn = 0;
+ 
+                    //interval between items (in milliseconds)
+                    var itemInterval = 4000;
+ 
+                    //cross-fade time (in milliseconds)
+                    var fadeTime = 0;
+ 
+                    //count number of items
+                    var numberOfItems = $('.rotating-item').length;
+ 
+                    //set current item
+                    var currentItem = 0;
+ 
+                    //show first item
+                    $('.rotating-item').eq(currentItem).fadeIn(initialFadeIn);
+
+                    //loop through the items
+                    var infiniteLoop = setInterval(function(){
+                        $('.rotating-item').eq(currentItem).fadeOut(fadeTime);
+                        if(currentItem == numberOfItems -1){
+                            currentItem = 0;
+                        }
+                        else{
+                            currentItem++;
+                        }
+                        $('.rotating-item').eq(currentItem).fadeIn(fadeTime);
+                    }, itemInterval);
+                }
+            };
+            InfiniteRotator.init();
+         });
+</script>
 </div>
 </article>
 
@@ -222,3 +224,6 @@ overnight guests</li>
 </article>
 
 </body>
+
+
+
