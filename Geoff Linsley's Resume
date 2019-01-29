@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<style>
+body {
+border: 3px solid;
+}
+
+.grid {
+display: grid;
+grid-area: auto;
+}
+
+#meterbox{
+padding-top: 2px;
+padding-left: 4px;
+
+}
+
+meter {
+padding-top: 1px;
+}
+
+label {
+padding-bottom: 5px;
+text-align: center;
+}
+
+h1 {
+font-weight: bold;
+font-size: 28px;
+text-align: center;
+color: darkGreen;
+}
+
+h3 {
+text-align: center;
+}
+
+h4{
+text-align: center;
+}
+
+address {
+text-align: center;
+color: darkGrey;
+font-weight: bold;
+}
+
+small {
+text-align: center;
+}
+
+section {
+
+}
+
+#left {
+grid-area: nav;
+}
+
+#right {
+grid-area: ads;
+}
+
+</style>
+
+<body>
+<title>Geoff Linsley's Resume</title>
+
+<div class="grid">
+<div id="right">
+<h1>Meteorologist Geoff Linsley</h1>
+<address>
+261 Kenlock St. SE, Grand Rapids, MI<br />
+(269) 719-0786<br />
+geofflinsley@gmail.com
+<br /> <br /> <br /> <br />
+</address>
+</div>
+<div id="meterbox" id="left">
+<label style="font-size: 19px; font-weight:bold; color:blue">CODING SKILLS</label><br />
+<meter value=".8"></meter><br />
+<label>HTML5/CSS</label><br />
+<meter value=".75"></meter><br />
+<label>JavaScript</label><br />
+<meter value=".70"></meter><br />
+<label>Java</label>
+</div>
+</div>
+
+<div>
+<div>
+<h3 style="color:teal">SKILLS</h3>
+<ul style="margin-left: 90px;">
+<li>Demonstrated competencies in installing, operating and troubleshooting a small to
+medium-sized enterprise branch network</li>
+<li>5 years experience with SEO, rising my primary client West Coast Weather’s page to
+within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranked weather blogs worldwide</li>
+<li>Author with 12+ years experience in content coordination and review</li>
+<li>4.5 years experience weather forecasting, namely the Pacific Northwest and Himalayas</li> 
+</ul>
+</div>
+
+<hr>
+
+<div class="grid">
+
+<div id="left">
+<h3 style="color:purple">EDUCATION</h3>
+<h4>Cisco Certified Networking Associate (CCNA)</h4>
+<small>AUGUST 2018-2021</small>
+<p>Routing and Switching</p>
+<section>
+Demonstrated competencies in: OSPF, RIP, EIGRP, BGP, VLANs, UDP/TCP, WAN technologies,
+addressing, network architecture, network security, RADIUS, TACACS+, NAT, CLI, IPv4/IPv6, etc.<br />
+Cisco ID: CSCO13228163 | Validation ID: 133050566
+</section>
+<h4>CompTIA A+ Certification</h4>
+<small>AUGUST 2016-2019</small>
+<p>Computer software and hardware repair</p>
+<section>
+CompTIA A+ certified computer repair and help desk technician, covering: hardware, networking,
+mobile devices, software troubleshooting, security, hardware and network troubleshooting,
+operational procedures, Windows, Mac OS X and Linux.<br />
+Registration #: 303659369 | Validation: 426898266
+</section>
+<h4>Texas Agriculture and Mechanical University - Bach. of Science, Meteorology</h4>
+<small>AUGUST 2012</small>
+<p>College Station, TX</p>
+
+<div id="right">
+</div>
+<img srcset="http://media.graytvinc.com/images/810*607/aggies4.jpg 300w, https://cdn.shopify.com/s/files/1/2292/9413/products/ccna_1024x1024@2x.png?v=1503356032 300w, https://certification.comptia.org/UI/Assets/siteIcons/logoAPlus.svg 300w" />
+</div>
+
+
+<div class="grid">
+<div id="left">
+<h3 style="color:green">INFORMATION TECHNOLOGY EXPERIENCE</h3>
+<h4>TEKSystems contractor for MCPc, Grand Rapids,MI</h4>
+<small>NOVEMBER 2016 - JULY 2017</small>
+<ul>
+<li>Implementation of Spectrum Health’s technology overhaul “NEXUS”</li>
+<li>Contracted ground-level troop for installations, troubleshooting and client relations</li>
+<li>Life cycle refresh</li>
+<li>Clerical database skills using Excel and Access</li>
+<li>Mapping of technology layouts using Visio and Protobase</li>
+</ul>
+</div>
+<div id="right">
+<h3 style="color:green">CUSTOMER SERVICE EXPERIENCE</h3>
+<h4> Night Auditor for Yarrow Golf and Conference Resort, Augusta, MI</h4>
+<small>MAY 2007 - NOVEMBER 2015</small>
+<ul>
+<li>Managed and patrolled the hotel grounds predominately alone</li>
+<li>Handled phone/face-to-face customer service issues and to suit the general needs of the
+overnight guests</li>
+<li>Check-ins and check-outs</li>
+<li>Only security on staff, guarding safe deposits</li>
+<li>Efficient nightly bookkeeping that staged easy mornings for the accountant</li>
+</ul>
+</div>
+</div>
+</body>
+<script>
+</script>
+
+
