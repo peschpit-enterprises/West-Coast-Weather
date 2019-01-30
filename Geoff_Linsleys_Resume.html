@@ -108,13 +108,16 @@ padding: 6px;
 background-image: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, green);
 }
 
-.animation {
 @keyframes coloranimation { 
-0% {background-color:green} 25% {background-color:teal} 50% {background-color:purple} 75% {background-color:blue} 100% {background-color:green}
-}
+0% {background-color: green; left: 0px; top: 0px} 25% {background-color: teal; left: 200px; top: 0px} 50% {background-color: purple; left: 200px; top: 200px} 75% {background-color: blue; left: 0px; top: 200px} 100% {background-color:green; left: 0px; top: 0px}
 }
 
-
+.divanimation {
+position: relative;
+animation-name: coloranimation;
+animation-duration: 16s;
+animation-iteration-count: 4;
+}
 </style>
 
 <body>
@@ -144,36 +147,7 @@ geofflinsley@gmail.com
 </div>
 
 <div class="grid" style="grid-template-areas: 'nav article'">
-<div style="grid-area:nav">
-<canvas class="animation">
-<script class="animation">
-var c = document.getElementById("myCanvas");
-var canvas = c.getContext("2d");
-canvas.rect(20, 20, 150, 100);
-canvas.stroke();
-
-// Red rectangle
-ctx.beginPath();
-ctx.lineWidth = "6";
-ctx.strokeStyle = "red";
-ctx.rect(5, 5, 290, 140); 
-ctx.stroke();
-
-// Green rectangle
-ctx.beginPath();
-ctx.lineWidth = "4";
-ctx.strokeStyle = "green";
-ctx.rect(30, 30, 50, 50);
-ctx.stroke();
-
-// Blue rectangle
-ctx.beginPath();
-ctx.lineWidth = "10";
-ctx.strokeStyle = "blue";
-ctx.rect(50, 50, 150, 80);
-ctx.stroke();
-</script>
-</canvas>
+<div style="grid-area:nav" class="divanimation">
 </div>
 <div style="grid-area: article">
 <h3 class="skills" >SKILLS</h3>
