@@ -18,7 +18,6 @@ grid-template-areas: "nav ads";
 #meterbox{
 padding-top: 6px;
 padding-left: 8px;
-
 }
 
 meter {
@@ -50,6 +49,28 @@ text-align: center;
 color: darkcyan;
 }
 
+.skills{
+text-shadow: 5px -5px 20px azure;
+font-weight: bold;
+font-size: 23px;
+background: linear-gradient(darkturquoise, darkseagreen);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+-ms-background-clip: text;
+-ms-text-fill-color: transparent;
+
+}
+
+.educationbox{
+color: purple;
+box-shadow: inset 1px 1px 2px 1px;
+margin-left: 240px;
+margin-right: 240px;
+text-shadow: 1px 1px black
+}
+
 .dates {
 text-align: center;
 font-size: 14px;
@@ -57,7 +78,7 @@ font-size: 14px;
 
 #credentials {
 text-align: center;
-padding-bottom: 8px;
+padding-bottom: 16px;
 }
 
 #left {
@@ -83,8 +104,9 @@ grid-area: ads;
 .coloranimate {
 margin: 6px;
 padding: 6px;
-animation: background-image 4s;
 background-image: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, green);
+@keyframes background-color { 0% {background-color:green} 25% {background-color:teal} 50% {background-color:purple} 75% {background-color:blue} 100% {background-color:green} };
+animation: background-color 4s;
 }
 
 </style>
@@ -92,7 +114,7 @@ background-image: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, 
 <body>
 <title>Geoff Linsley's Resume</title>
 
-<div class="grid">
+<div class="grid" style="background-image: linear-gradient(to bottom, paleturquoise, white)">
 
 <div id="right" style="box-shadow: inset -1px 1px 2px 1px">
 <h1>Meteorologist Geoff Linsley</h1>
@@ -116,7 +138,7 @@ geofflinsley@gmail.com
 </div>
 
 <div>
-<h3 style="color:teal">SKILLS</h3>
+<h3 class="skills">SKILLS</h3>
 <ul style="margin-left: 90px;">
 <li>Demonstrated competencies in installing, operating and troubleshooting a small to
 medium-sized enterprise branch network</li>
@@ -132,7 +154,7 @@ within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranke
 <article class="grid">
 
 <div id="left">
-<h3 style="color:purple">EDUCATION</h3>
+<h3 class="educationbox">EDUCATION</h3>
 <h4>Cisco Certified Networking Associate (CCNA) - Routing and Switching</h4>
 <p class="dates">AUGUST 2018-2021</p>
 <p style="padding: 12px">
@@ -148,7 +170,7 @@ mobile devices, software troubleshooting, security, hardware and network trouble
 operational procedures, Windows, Mac OS X and Linux.<br />
 <p id="credentials">Registration #: 303659369 | Validation: 426898266</p>
 </p>
-<h4>Texas Agriculture and Mechanical University - College Station, TX</h4>
+<h4 style="font-size: 18px;">Texas Agriculture and Mechanical University - College Station, TX</h4>
 <p class="dates">AUGUST 2012</p>
 <p style ="text-align: center; font-size: 17px; font-weight: bold;">Bach. of Science - Meteorology</p>
 </div>
