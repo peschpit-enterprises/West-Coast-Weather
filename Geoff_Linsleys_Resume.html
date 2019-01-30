@@ -7,7 +7,7 @@
 <style>
 body {
 border: 3px solid darkslategrey;
-padding: 8px;
+padding: 0px;
 }
 
 .grid {
@@ -16,8 +16,8 @@ grid-template-areas: "nav ads";
 }
 
 #meterbox{
-padding-top: 2px;
-padding-left: 4px;
+padding-top: 6px;
+padding-left: 8px;
 
 }
 
@@ -81,7 +81,10 @@ grid-area: ads;
 }
 
 .coloranimate {
-
+margin: 6px;
+padding: 8px;
+animation: background-color 4s;
+background-color: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, green);
 }
 
 </style>
@@ -91,7 +94,7 @@ grid-area: ads;
 
 <div class="grid">
 
-<div id="right">
+<div id="right" style="box-shadow: inset -3px 3px 2px 1px">
 <h1>Meteorologist Geoff Linsley</h1>
 <address>
 261 Kenlock St. SE, Grand Rapids, MI<br />
@@ -124,7 +127,7 @@ within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranke
 </ul>
 </div>
 
-<hr>
+<hr class="coloranimate">
 
 <article class="grid">
 
@@ -132,14 +135,14 @@ within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranke
 <h3 style="color:purple">EDUCATION</h3>
 <h4>Cisco Certified Networking Associate (CCNA) - Routing and Switching</h4>
 <p class="dates">AUGUST 2018-2021</p>
-<p>
+<p style="padding: 12px">
 Demonstrated competencies in: OSPF, RIP, EIGRP, BGP, VLANs, UDP/TCP, WAN technologies,
 addressing, network architecture, network security, RADIUS, TACACS+, NAT, CLI, IPv4/IPv6, etc.<br />
 <p id="credentials">Cisco ID: CSCO13228163 | Validation ID: 133050566</p>
 </p>
 <h4>CompTIA A+ Certification - Computer hardware and software repair</h4>
 <p class="dates">AUGUST 2016-2019</p>
-<p>
+<p style="padding: 12px">
 CompTIA A+ certified computer repair and help desk technician, covering: hardware, networking,
 mobile devices, software troubleshooting, security, hardware and network troubleshooting,
 operational procedures, Windows, Mac OS X and Linux.<br />
@@ -195,12 +198,7 @@ $(window).load(function() { //start after HTML, images have loaded
 </div>
 </article>
 
-<rect class='coloranimation' x='1000' y='3' width='1000' height='3' />
-<script>
-coloranimation.animate({},400);
-</script>
-
-<hr>
+<hr style="padding: 4px; background-image: linear-gradient(to bottom, aquamarine, white)">
 
 <article style="background-image: linear-gradient(to top, aquamarine, white)" class="grid">
 
