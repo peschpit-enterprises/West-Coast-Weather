@@ -109,19 +109,20 @@ background-image: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, 
 }
 
 @keyframes coloranimation { 
-0% {background-color: green; left: 30px; top: 30px}
-25% {background-color: teal; left: 105px; top: 80px}
-50% {background-color: purple; left: 105px; top: 120px}
-75% {background-color: blue; left: 80px; top: 105px}
-100% {background-color:green; left: 30px; top: 30px}
+0% {background-color: green; left: 30px; top: -20px}
+25% {background-color: teal; left: 10px; top: 20px}
+50% {background-color: purple; left: 85px; top: 90px}
+75% {background-color: blue; left: 80px; top: 55px}
+100% {background-color: green; left: 30px; top: -20px}
 }
 
 .divanimation {
-width: 100px;
-height: 100px;
+width: 80px;
+height: 80px;
+border-radius: 50%;
 position: relative;
 animation-name: coloranimation;
-animation-duration: 160s;
+animation-duration: 16s;
 animation-iteration-count: 40;
 }
 </style>
@@ -153,8 +154,10 @@ geofflinsley@gmail.com
 </div>
 
 <div class="grid" style="grid-template-areas: 'nav article'">
+
 <div style="grid-area:nav" class="divanimation">
 </div>
+
 <div style="grid-area: article">
 <h3 class="skills" >SKILLS</h3>
 <ul style="margin-left: 90px;">
