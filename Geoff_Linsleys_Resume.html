@@ -99,16 +99,21 @@ grid-area: ads;
                 display: none;
                 margin-left: auto;
                 margin-right: auto;
-                padding-top: 85px;
+                padding-top: 10px;
 }
 
-.coloranimate {
+.colorbar {
 margin: 6px;
 padding: 6px;
 background-image: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, green);
-@keyframes background-color { 0% {background-color:green} 25% {background-color:teal} 50% {background-color:purple} 75% {background-color:blue} 100% {background-color:green} };
-animation: background-color 4s;
 }
+
+.animation {
+@keyframes coloranimation { 
+0% {background-color:green} 25% {background-color:teal} 50% {background-color:purple} 75% {background-color:blue} 100% {background-color:green}
+}
+}
+
 
 </style>
 
@@ -138,8 +143,38 @@ geofflinsley@gmail.com
 </div>
 </div>
 
+<div class="grid" style="grid-template-areas: 'nav article'">
 <div>
-<h3 class="skills">SKILLS</h3>
+<script class="animation">
+var c = document.getElementById("myCanvas");
+var canvas = c.getContext("2d");
+canvas.rect(20, 20, 150, 100);
+canvas.stroke();
+
+// Red rectangle
+ctx.beginPath();
+ctx.lineWidth = "6";
+ctx.strokeStyle = "red";
+ctx.rect(5, 5, 290, 140); 
+ctx.stroke();
+
+// Green rectangle
+ctx.beginPath();
+ctx.lineWidth = "4";
+ctx.strokeStyle = "green";
+ctx.rect(30, 30, 50, 50);
+ctx.stroke();
+
+// Blue rectangle
+ctx.beginPath();
+ctx.lineWidth = "10";
+ctx.strokeStyle = "blue";
+ctx.rect(50, 50, 150, 80);
+ctx.stroke();
+</script>
+</div>
+<div style="grid-area: article">
+<h3 class="skills" >SKILLS</h3>
 <ul style="margin-left: 90px;">
 <li>Demonstrated competencies in installing, operating and troubleshooting a small to
 medium-sized enterprise branch network</li>
@@ -149,8 +184,9 @@ within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranke
 <li>4.5 years experience weather forecasting, namely the Pacific Northwest and Himalayas</li> 
 </ul>
 </div>
+</div>
 
-<hr class="coloranimate">
+<hr class="colorbar">
 
 <article class="grid">
 
