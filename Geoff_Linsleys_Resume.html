@@ -144,7 +144,8 @@ geofflinsley@gmail.com
 </div>
 
 <div class="grid" style="grid-template-areas: 'nav article'">
-<div>
+<div style="grid-area:nav">
+<canvas class="animation">
 <script class="animation">
 var c = document.getElementById("myCanvas");
 var canvas = c.getContext("2d");
@@ -172,6 +173,7 @@ ctx.strokeStyle = "blue";
 ctx.rect(50, 50, 150, 80);
 ctx.stroke();
 </script>
+</canvas>
 </div>
 <div style="grid-area: article">
 <h3 class="skills" >SKILLS</h3>
