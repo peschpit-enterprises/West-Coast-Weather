@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1">
 </script>
 </head>
 <style>
 body {
 border: 3px solid darkslategrey;
+padding: 0px;
 }
 
 .grid {
@@ -30,32 +31,9 @@ text-align: center;
 
 h1 {
 font-weight: bold;
-font-size: 28px;
+font-size: 25px;
 text-align: center;
 color: darkGreen;
-}
-
-.codingskills {
-color: blue;
-font-size: 20px;
-font-weight: bold;
-background: linear-gradient(to right bottom, darkblue, blue);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
--moz-background-clip: text;
--moz-text-fill-color: transparent;
--ms-background-clip: text;
--ms-text-fill-color: transparent;
-}
-
-.name {
-background: linear-gradient(to left bottom, darkgreen, forestgreen);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
--moz-background-clip: text;
--moz-text-fill-color: transparent;
--ms-background-clip: text;
--ms-text-fill-color: transparent;
 }
 
 h3 {
@@ -69,14 +47,7 @@ font-size: 16px;
 
 address {
 text-align: center;
-font-weight: bold;
-background: linear-gradient(to left bottom, cornflowerblue, powderblue);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
--moz-background-clip: text;
--moz-text-fill-color: transparent;
--ms-background-clip: text;
--ms-text-fill-color: transparent;
+color: darkcyan;
 }
 
 .skills{
@@ -128,32 +99,17 @@ grid-area: ads;
                 display: none;
                 margin-left: auto;
                 margin-right: auto;
-                padding-top: 85px;
+                padding-top: 10px;
 }
 
-.colorbar {
+.coloranimate {
 margin: 6px;
 padding: 6px;
 background-image: linear-gradient(90deg, green, teal 25%, purple 50%, blue 75%, green);
+@keyframes background-color { 0% {background-color:green} 25% {background-color:teal} 50% {background-color:purple} 75% {background-color:blue} 100% {background-color:green} };
+animation: background-color 4s;
 }
 
-@keyframes coloranimation { 
-0% {background-color: green; left: 30px; top: -20px;}
-25% {background-color: teal; left: 10px; top: 20px;}
-50% {background-color: indigo; left: 85px; top: 90px;}
-75% {background-color: blue; left: 80px; top: 55px;}
-100% {background-color: green; left: 30px; top: -20px;}
-}
-
-.divanimation {
-width: 80px;
-height: 80px;
-border-radius: 50%;
-position: relative;
-animation-name: coloranimation;
-animation-duration: 16s;
-animation-iteration-count: 40;
-}
 </style>
 
 <body>
@@ -162,7 +118,7 @@ animation-iteration-count: 40;
 <div class="grid" style="background-image: linear-gradient(to bottom, paleturquoise, white)">
 
 <div id="right" style="box-shadow: inset -1px 1px 2px 1px">
-<h1 class="name">Meteorologist Geoff Linsley</h1>
+<h1>METEOROLOGIST GEOFF LINSLEY</h1>
 <address>
 261 Kenlock St. SE, Grand Rapids, MI<br />
 (269) 719-0786<br />
@@ -172,7 +128,7 @@ geofflinsley@gmail.com
 </div>
 
 <div id="meterbox" id="left">
-<label class="codingskills">CODING SKILLS</label><br />
+<label style="color: blue; font-size: 19px; font-weight:bold">CODING SKILLS</label><br />
 <meter value=".8"></meter><br />
 <label>HTML5/CSS</label><br />
 <meter value=".75"></meter><br />
@@ -182,13 +138,8 @@ geofflinsley@gmail.com
 </div>
 </div>
 
-<div class="grid" style="grid-template-areas: 'nav article'">
-
-<div style="grid-area:nav" class="divanimation">
-</div>
-
-<div style="grid-area: article">
-<h3 class="skills" >SKILLS</h3>
+<div>
+<h3 class="skills">SKILLS</h3>
 <ul style="margin-left: 90px;">
 <li>Demonstrated competencies in installing, operating and troubleshooting a small to
 medium-sized enterprise branch network</li>
@@ -198,11 +149,10 @@ within the <a href="https://blog.feedspot.com/weather_blogs/">top #100</a> ranke
 <li>4.5 years experience weather forecasting, namely the Pacific Northwest and Himalayas</li> 
 </ul>
 </div>
-</div>
 
-<hr class="colorbar">
+<hr class="coloranimate">
 
-<div class="grid">
+<article class="grid">
 
 <div id="left">
 <h3 class="educationbox">EDUCATION</h3>
@@ -265,11 +215,11 @@ $(window).load(function() { //start after HTML, images have loaded
             InfiniteRotator.init();
          });
 </script>
-    <img class="rotating-item" src="http://media.graytvinc.com/images/810*607/aggies4.jpg" width="450px" height="450px"/>
-    <img class="rotating-item" src="https://cdn.shopify.com/s/files/1/2292/9413/products/ccna_1024x1024@2x.png?v=1503356032" width="450px" height="450px"/>
-    <img class="rotating-item" src="https://certification.comptia.org/UI/Assets/siteIcons/logoAPlus.svg" width="450px" height="450px" />
+    <img class="rotating-item" src="http://media.graytvinc.com/images/810*607/aggies4.jpg" width="500px" height="450px"/>
+    <img class="rotating-item" src="https://cdn.shopify.com/s/files/1/2292/9413/products/ccna_1024x1024@2x.png?v=1503356032" width="500px" height="450px"/>
+    <img class="rotating-item" src="https://certification.comptia.org/UI/Assets/siteIcons/logoAPlus.svg" width="500px" height="450px" />
 </div>
-</div>
+</article>
 
 <hr style="padding: 4px; background-image: linear-gradient(to bottom, aquamarine, white)">
 
@@ -281,8 +231,8 @@ $(window).load(function() { //start after HTML, images have loaded
 <p class="dates">NOVEMBER 2016 - JULY 2017</p>
 <ul>
 <li>Implementation of Spectrum Health’s technology overhaul “NEXUS”</li>
-<li>Microsoft Windows system upgrades and imaging</li>
-<li>Life cycle refresh: ground-level troop for installations, troubleshooting and client relations</li>
+<li>Contracted ground-level troop for installations, troubleshooting and client relations</li>
+<li>Life cycle refresh</li>
 <li>Clerical database skills using Excel and Access</li>
 <li>Mapping of technology layouts using Visio and Protobase</li>
 </ul>
