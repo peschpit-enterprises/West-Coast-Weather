@@ -1,7 +1,7 @@
-<script>
+<script type="text/javascript">
 function formfill() {
-       
-var WConfill = document.getElementById("WCon.formfill").innerHTML;
+var WCon.form;
+var WConfill = document.getElementById("WCon.form").innerHTML;
 
 WCon
 WFre
@@ -75,7 +75,7 @@ FTime
 <!-- Turn off the form - set to "display: none" -->
 <form style="display:"
 
-name="formfill" action="formfill()" method="post">
+name="form" action="formfill()" method="post">
  
 <style>
 label {
@@ -560,7 +560,7 @@ freezing levels
 
 <script>
 // Wednesday Confidence Form Fill
-return '${WConfill}';
+return formfill('WConfill');
 </script>
 
 
