@@ -1,7 +1,6 @@
 <script type="text/javascript">
 function formfill() {
-var WCon.form;
-var WConfill = document.getElementById("WCon.form").innerHTML;
+var WConfill = document.getElementById("WCon").innerHTML;
 
 WCon
 WFre
@@ -560,7 +559,7 @@ freezing levels
 
 <script>
 // Wednesday Confidence Form Fill
-return formfill('WConfill');
+WConfill.innerHTML;
 </script>
 
 
