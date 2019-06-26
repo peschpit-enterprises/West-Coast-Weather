@@ -1,0 +1,427 @@
+<script>
+function formfill() {
+       
+var WConfill = formfill.getElementById("WCon").innerHTML;
+
+WCon
+WFre
+WSum
+WSatWcC
+WSatWcP
+WSatOW
+WSatOC
+WSatOP
+WSatEcW
+WSatEcC
+WSatEcP
+WSunWcC
+WSunWcP
+WSunOW
+WSunOC
+WSunOP
+WSunEcW
+WSunEcC
+WSunEcP
+WDate
+WTime
+
+FCon
+FFre
+FSum
+FSatWcC
+FSatWcP
+FSatOW
+FSatOC
+FSatOP
+FSatEcW
+FSatEcC
+FSatEcP
+FSatSpW
+FSatSpC
+FSatSpP
+FSatWpW
+FSatWpC
+FSatWpP
+FSatCbW
+FSatCbC
+FSatCbP
+FSatCbT
+FSunWcW
+FSunWcC
+FSunWcP
+FSunOW
+FSunOC
+FSunOP
+FSunEcW
+FSunEcC
+FSunEcP
+FSunSpW
+FSunSpC
+FSunSpP
+FSunWpW
+FSunWpC
+FSunWpP
+FSunCbW
+FSunCbC
+FSunCbP
+FSunCbT
+FDate
+FTime
+}
+</script>
+
+<!-- Turn off the form - set to "display: none" -->
+<form style="display:"
+
+name="formfill" action="formfill()" method="post">
+ 
+<style>
+label {
+}
+#label {
+font-size: 25px;
+}
+</style>
+
+<br /><br/><br />
+<h5>WEDNESDAY FORM</h5>
+<label>CONFIDENCE:</label>
+<input id="WCon" type="text" /><br /><br />
+<label>FREEZING LEVELS:</label>
+<input id="WFre" type="text" /><br /><br />
+<label>SUMMARY:</label>
+<textarea rows="10" cols="50" id="WSum" type="text"></textarea>
+<br /><br /><p style="text-align: center" id="label">SATURDAY</p><br/><br />
+<label><strong>WEST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="WSatWcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="WSatWcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="WSatWcP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>OLYMPICS</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="WSatOW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="WSatOC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="WSatOP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>EAST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="WSatEcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="WSatEcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="WSatEcP" cols="80" type="text" /></textarea><br /><br />
+<br /><br /><p style="text-align: center" id="label">SUNDAY</p><br/><br />
+<label><strong>WEST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="WSunWcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="WSunWcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="WSunWcP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>OLYMPICS</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="WSunOW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="WSunOC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="WSunOP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>EAST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="WSunEcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="WSunEcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="WSunEcP" cols="80" type="text" /></textarea>
+<br /><br />
+<label>DATE:</label>
+<textarea id="WDate" cols="80" type="text" /></textarea><br /><br/><br />
+<label>TIME:</label>
+<textarea id="WTime" cols="80" type="text" /></textarea>
+<br /><br/><br />
+
+<h5>FRIDAY FORM</h5>
+<label>CONFIDENCE:</label>
+<input id="FCon" type="text" /><br /><br />
+<label>FREEZING LEVELS:</label>
+<input id="FFre" type="text" /><br /><br />
+<label>SUMMARY:</label>
+<textarea rows="10" cols="50" id="FSum" type="text"></textarea>
+<br /><br /><p style="text-align: center" id="label">SATURDAY</p><br/><br />
+<label><strong>WEST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSatWcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSatWcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSatWcP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>OLYMPICS</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSatOW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSatOC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSatOP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>EAST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSatEcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSatEcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSatEcP" cols="80" type="text" /></textarea>
+<label><strong>STEVENS AND SNOQUALMIE PASS</strong></label><br/><br/>
+<label>WINDS AT 5,000':</label>
+<textarea id="FSatSpW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSatSpC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSatSpP" cols="80" type="text" /></textarea>
+<label><strong>WASHINGTON PASS</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSatWpW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSatWpC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSatWpP" cols="80" type="text" /></textarea>
+<label><strong>COLUMBIA BASIN</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSatCbW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSatCbC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSatCbP" cols="80" type="text" /></textarea>
+<label>HIGH:</label>
+<textarea id="FSatCbT" cols="80" type="text" /></textarea>
+<br /><br />
+<br /><br />
+<p style="text-align: center" id="label">SUNDAY</p><br/><br />
+<label><strong>WEST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSunWcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSunWcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSunWcP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>OLYMPICS</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSunOW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSunOC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSunOP" cols="80" type="text" /></textarea><br /><br />
+<label><strong>EAST CASCADES</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSunEcW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSunEcC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSunEcP" cols="80" type="text" /></textarea>
+<label><strong>STEVENS AND SNOQUALMIE PASS</strong></label><br/><br/>
+<label>WINDS AT 5,000':</label>
+<textarea id="FSunSpW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSunSpC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSunSpP" cols="80" type="text" /></textarea>
+<label><strong>WASHINGTON PASS</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSunWpW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSunWpC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSunWpP" cols="80" type="text" /></textarea>
+<label><strong>COLUMBIA BASIN</strong></label><br/><br/>
+<label>WINDS:</label>
+<textarea id="FSunCbW" cols="80" type="text"/></textarea><br /><br />
+<label>CLOUDS:</label>
+<textarea id="FSunCbC" cols="80" type="text" /></textarea><br /><br />
+<label>PRECIPITATION:</label>
+<textarea id="FSunCbP" cols="80" type="text" /></textarea>
+<label>HIGH:</label>
+<textarea id="FSunCbT" cols="80" type="text" /></textarea>
+<br /><br />
+<label>DATE:</label>
+<textarea id="FDate" cols="80" type="text" /></textarea><br /><br/><br />
+<label>TIME:</label>
+<textarea id="FTime" cols="80" type="text" /></textarea><br /><br/><br />
+
+<input type="button" value="SAVE TO FORM" onclick="formfill()" />
+
+</form>
+
+
+
+
+<!-- Turn off Wednesday's template - set to "display: none" -->
+<div style="display:">
+
+<h2 style="text-align: center"> WEDNESDAY<br>WEEKEND WEATHER OUTLOOK</h2>
+<img src="https://wowweather.com/wp-content/uploads/2019/06/Fagins-Weather-World.jpg" style="display: block; margin-left: auto; margin-right: auto">
+<article style="text-align: center; align-content: center; display: grid; grid-columns: 3">
+<div style="grid-column: 1; max-width: 120px">
+<br><br>
+<div style="border: 5px solid darkgreen; border-radius: 10px"><strong>FREEZING LEVELS</strong><br><br>
+
+<script>
+// Wednesday Freezing Levels Form Fill
+
+freezing levels
+
+</script>
+
+<br><br></div>
+<br><br>
+<div style="border: 5px solid darkgreen; border-radius: 10px"><strong>CONFIDENCE</strong><br><br>
+
+<script>
+// Wednesday Confidence Form Fill
+'${WConfill}';
+</script>
+
+<br><br></div>
+<br><br>
+<div style="border: 5px solid darkgreen; border-radius: 10px"><strong>WATER EQUIVALENTS</strong><br><br><br>
+0.10" of rain = approximately<br> 1" of snow<br><br>
+Snow occurs roughly 1000' below freezing levels.
+<br></div>
+</div>
+<div style="grid-column: 2; max-width: 300px">
+<span style="letter-spacing: 2px; text-align: center"><br>
+
+June 25, 2019<br>
+8:00 AM
+
+</span><br>
+<div style="padding: 22px">
+<h3 style="color: darkgreen">SUMMARY</h3>
+
+Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of wordsLots and lots of words Lots and lots of wordsLots and lots of words.<br><br>
+Lots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of words
+
+</div>
+</div>
+<div style="grid-column: 3; mid-width: 400px">[metaslider id="960"]
+<br>
+<figure>[metaslider id="1398"]
+<figcaption style="text-align: center">
+View of the Month: Chair Peak
+</figcaption></figure>
+</div>
+</article>
+
+<h3 style="color: darkgreen; text-align: center">SATURDAY</h3>
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1280"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>WEST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+WINDS: winds and winds and winds and winds<br>
+CLOUDS: clouds and clouds and clouds and clouds<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="756"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1593"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>OLYMPICS</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+WINDS: winds and winds and winds and winds<br>
+CLOUDS: clouds and clouds and clouds and clouds<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="715"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1397"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>EAST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+WINDS: winds and winds and winds and winds<br>
+CLOUDS: clouds and clouds and clouds and clouds<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="593"]
+</div>
+</article>
+
+<h3 style="text-align: center; color: darkgreen">SUNDAY</h3>
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1664"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>WEST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+WINDS: winds and winds and winds and winds<br>
+CLOUDS: clouds and clouds and clouds and clouds<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1852"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1844"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>OLYMPICS</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+WINDS: winds and winds and winds and winds<br>
+CLOUDS: clouds and clouds and clouds and clouds<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1872"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1826"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>EAST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+WINDS: winds and winds and winds and winds<br>
+CLOUDS: clouds and clouds and clouds and clouds<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1912"]
+</div>
+</article>
+
+<div style="display: grid; margin-left: auto; margin-right: auto">
+[metaslider id="797"]
+</div>
+</div>
