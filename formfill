@@ -2,6 +2,8 @@
 function formfill() {
 var WConfill = document.getElementById("WCon").innerHTML;
 
+insertText('WConfill');
+
 WCon
 WFre
 WSum
@@ -255,7 +257,7 @@ button:active {
 <label>TIME:</label>
 <textarea id="FTime" cols="80" type="text" /></textarea><br /><br/><br />
 
-<button type="button" onclick="formfill()">SAVE TO FORM</button>
+<button type="button" onclick="formfill();">SAVE TO FORM</button>
 
 </form>
 
@@ -560,6 +562,7 @@ freezing levels
 <script>
 // Wednesday Confidence Form Fill
 WConfill.innerHTML;
+formfill(insertText('WConfill'));
 </script>
 
 
