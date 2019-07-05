@@ -1,78 +1,3 @@
-<script type="text/javascript">
-function formfill() {
-var WConfill = document.getElementById("WCon").innerHTML;
-
-insertText('WConfill');
-
-WCon
-WFre
-WSum
-WSatWcC
-WSatWcP
-WSatOW
-WSatOC
-WSatOP
-WSatEcW
-WSatEcC
-WSatEcP
-WSunWcC
-WSunWcP
-WSunOW
-WSunOC
-WSunOP
-WSunEcW
-WSunEcC
-WSunEcP
-WDate
-WTime
-
-FCon
-FFre
-FSum
-FSatWcC
-FSatWcP
-FSatOW
-FSatOC
-FSatOP
-FSatEcW
-FSatEcC
-FSatEcP
-FSatSpW
-FSatSpC
-FSatSpP
-FSatWpW
-FSatWpC
-FSatWpP
-FSatCbW
-FSatCbC
-FSatCbP
-FSatCbT
-FSunWcW
-FSunWcC
-FSunWcP
-FSunOW
-FSunOC
-FSunOP
-FSunEcW
-FSunEcC
-FSunEcP
-FSunSpW
-FSunSpC
-FSunSpP
-FSunWpW
-FSunWpC
-FSunWpP
-FSunCbW
-FSunCbC
-FSunCbP
-FSunCbT
-FDate
-FTime
-}
-</script>
-
-
-
 <!-- Turn off the form - set to "display: none" -->
 <form style="display:"
 
@@ -561,8 +486,7 @@ freezing levels
 
 <script>
 // Wednesday Confidence Form Fill
-WConfill.innerHTML;
-formfill(insertText('WConfill'));
+document.write(WConfill);
 </script>
 
 
@@ -711,3 +635,82 @@ PRECIPITATION: lots of precipitation to talk about
 [metaslider id="797"]
 </div>
 </div>
+
+<script type="text/javascript">
+
+function formfill() {
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
+var WConfill = document.getElementById("WCon").innerHTML;
+
+
+WCon
+WFre
+WSum
+WSatWcC
+WSatWcP
+WSatOW
+WSatOC
+WSatOP
+WSatEcW
+WSatEcC
+WSatEcP
+WSunWcC
+WSunWcP
+WSunOW
+WSunOC
+WSunOP
+WSunEcW
+WSunEcC
+WSunEcP
+WDate
+WTime
+
+FCon
+FFre
+FSum
+FSatWcC
+FSatWcP
+FSatOW
+FSatOC
+FSatOP
+FSatEcW
+FSatEcC
+FSatEcP
+FSatSpW
+FSatSpC
+FSatSpP
+FSatWpW
+FSatWpC
+FSatWpP
+FSatCbW
+FSatCbC
+FSatCbP
+FSatCbT
+FSunWcW
+FSunWcC
+FSunWcP
+FSunOW
+FSunOC
+FSunOP
+FSunEcW
+FSunEcC
+FSunEcP
+FSunSpW
+FSunSpC
+FSunSpP
+FSunWpW
+FSunWpC
+FSunWpP
+FSunCbW
+FSunCbC
+FSunCbP
+FSunCbT
+FDate
+FTime
+}
+</script>
