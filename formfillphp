@@ -1,0 +1,32 @@
+<?php
+$formfillphp = fopen("formfillphp.txt", "w") or die("Unable to open file!");
+
+global $wpdb;
+
+  $wpdb->insert('WCon.value', array('Wcon_display' => $inputValue, 
+        array( '%s' ) 
+    );
+
+
+
+$uploaddir = '/var/www/uploads/';
+$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+
+
+
+echo $_POST['WCon_display'];
+
+display_WCon = formfill(WCon.form);
+$txt = "John Doe\n";
+fwrite($formfillphp, $display_WCon);
+$txt = "Jane Doe\n";
+fwrite($formfillphp, $txt);
+
+
+add_option($name, $value, $autoload);
+update_option($option_name, $newvalue);
+
+
+
+fclose($formfillphp);
+?>
