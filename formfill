@@ -21,7 +21,9 @@ button:active {
 <br /><br/><br />
 <h5>WEDNESDAY FORM</h5>
 <label>CONFIDENCE:</label>
-<input id="WCon" type="text" /><br /><br />
+
+<input name="WCon" id="WCon" type="text" /><br /><br />
+
 <label>FREEZING LEVELS:</label>
 <input id="WFre" type="text" /><br /><br />
 <label>SUMMARY:</label>
@@ -484,10 +486,8 @@ freezing levels
 <br><br>
 <div style="border: 5px solid darkgreen; border-radius: 10px"><strong>CONFIDENCE</strong><br><br>
 
-<script>
-// Wednesday Confidence Form Fill
-document.write(WConfill);
-</script>
+<!-- Wednesday Confidence Form Fill-->
+<span id="display_WCon"></span>
 
 
 <br><br></div>
@@ -645,7 +645,16 @@ $( document ).ready(function() {
     console.log( "ready!" );
 });
 
-var WConfill = document.getElementById("WCon").innerHTML;
+function formfill() {
+
+var WCon = document.getElementById('WCon').value;
+display_WCon.innerHTML = WCon;
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
 
 
 WCon
