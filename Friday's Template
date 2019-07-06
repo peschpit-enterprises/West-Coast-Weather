@@ -1,0 +1,345 @@
+<!-- T U R N  O F F  F R I D A Y ' S  T E M P L A T E - set to "display: none" -->
+<div style="color: darkslategray; display: none">
+
+<h2 style="text-align: center">FRIDAY<br>WEEKEND WEATHER OUTLOOK</h2>
+<img src="https://wowweather.com/wp-content/uploads/2019/06/Fagins-Weather-World.jpg" style="display: block; margin-left: auto; margin-right: auto">
+
+<article style="text-align: center; align-content: center; display: grid; grid-columns: 3">
+<div style="grid-column: 1; max-width: 120px">
+<br><br>
+<div style="border: 5px solid darkgreen; border-radius: 10px"><strong>FREEZING LEVELS</strong><br><br>
+
+
+<!-- U P D A T E  F R I  F R E E Z I N G  L E V E L S -->
+freezing levels
+
+
+<br><br></div>
+<br><br>
+<div style="border: 5px solid darkgreen; border-radius: 10px"><strong>CONFIDENCE</strong><br><br>
+
+
+<!-- U P D A T E  F R I  C O N F I D E N C E -->
+2.0
+
+
+<br><br></div>
+<br><br>
+<div style="border: 5px solid darkgreen; border-radius: 10px"><strong>WATER EQUIVALENTS</strong><br><br><br>
+0.10" of rain = approximately<br> 1" of snow<br><br>
+Snow occurs roughly 1000' below freezing levels.
+<br></div>
+</div>
+<div style="grid-column: 2; max-width: 300px">
+<span style="letter-spacing: 2px; text-align: center"><br>
+
+
+<!-- U P D A T E  T H E  D A T E  A N D  T I M E -->
+June 27, 2019
+<br>
+8:00 AM
+
+
+</span><br>
+<div style="padding: 22px">
+<h3 style="color: darkgreen">SUMMARY</h3>
+
+
+<!-- U P D A T E  T H E  S U M M A R Y -->
+Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of wordsLots and lots of words Lots and lots of wordsLots and lots of words.
+<br><br>
+Lots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of words
+
+</div>
+</div>
+<div style="grid-column: 3; mid-width: 400px">[metaslider id="1018"]
+<br>
+<figure>[metaslider id="1398"]
+<figcaption style="text-align: center">
+View of the Month: Chair Peak
+</figcaption></figure>
+</div>
+</article>
+
+<h3 style="color: darkgreen; text-align: center">SATURDAY</h3>
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1280"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>WEST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S A T  W E S T  C A S C A D E S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="756"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1593"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>OLYMPICS</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S A T  O L Y M P I C S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="715"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1397"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>EAST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S A T  E A S T  C A S C A D E S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="593"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1631"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>STEVENS AND SNOQUALMIE PASSES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S A T  S T E V E N S & S N O Q -->
+WINDS AT 5,000': winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="359"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1582"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>WASHINGTON PASS</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S A T  W A S H I N G T O N  P A S S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="323"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="2051"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>COLUMBIA BASIN</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S A T  C O L U M B I A  B A S I N -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+<br>
+HIGH: F
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="2095"]
+</div>
+</article>
+
+<h3 style="text-align: center; color: darkgreen">SUNDAY</h3>
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1664"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>WEST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S U N  W E S T  C A S C A D E S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1852"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1844"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>OLYMPICS</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S U N  O L Y M P I C S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1872"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1826"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>EAST CASCADES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S U N  E A S T  C A S C A D E S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1912"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1622"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>STEVENS AND SNOQUALMIE PASSES</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S U N  S T E V E N S & S N O Q -->
+WINDS AT 5,000': winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="1994"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="1995"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>WASHINGTON PASS</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S U N  W A S H I N G T O N  P A S S -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="2001"]
+</div>
+</article>
+
+<article style="display: grid; grid-columns: 3">
+<div style="grid-column: 1; min-width: 250px">
+[metaslider id="2060"]
+</div>
+<div style="grid-column: 2">
+<h6 style="text-align: center; padding: 5px"><strong>COLUMBIA BASIN</strong></h6>
+<p style="font-size: 14px; padding: 15px">
+
+
+<!-- U P D A T E  S U N  C O L U M B I A  B A S I N -->
+WINDS: winds and winds and winds and winds
+<br>
+CLOUDS: clouds and clouds and clouds and clouds
+<br>
+PRECIPITATION: lots of precipitation to talk about
+<br>
+HIGH: F
+
+
+<br></p></div>
+<div style="grid-column: 3; min-width: 250px">
+[metaslider id="2079"]
+</div>
+</article>
+
+<div style="display: grid; margin-left: auto; margin-right: auto">
+[metaslider id="797"]
+</div>
+</div>
