@@ -1,5 +1,5 @@
 <!-- T U R N  O F F  F R I D A Y ' S  T E M P L A T E - set to "display: none" -->
-<div style="color: darkslategray; display: none">
+<div style="color: darkslategray; display: ">
 
 <h2 style="text-align: center">FRIDAY<br>WEEKEND WEATHER OUTLOOK</h2>
 <img src="https://wowweather.com/wp-content/uploads/2019/06/Fagins-Weather-World.jpg" style="display: block; margin-left: auto; margin-right: auto">
@@ -11,7 +11,9 @@
 
 
 <!-- U P D A T E  F R I  F R E E Z I N G  L E V E L S -->
-freezing levels
+SAT: 8000'
+<br> 
+SUN: 9000'
 
 
 <br><br></div>
@@ -20,7 +22,7 @@ freezing levels
 
 
 <!-- U P D A T E  F R I  C O N F I D E N C E -->
-2.0
+1.8
 
 
 <br><br></div>
@@ -35,9 +37,9 @@ Snow occurs roughly 1000' below freezing levels.
 
 
 <!-- U P D A T E  T H E  D A T E  A N D  T I M E -->
-June 27, 2019
+July 5, 2019
 <br>
-8:00 AM
+8:15 AM
 
 
 </span><br>
@@ -46,9 +48,15 @@ June 27, 2019
 
 
 <!-- U P D A T E  T H E  S U M M A R Y -->
-Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of words Lots and lots of wordsLots and lots of words Lots and lots of wordsLots and lots of words.
-<br><br>
-Lots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of wordsLots and lots of words
+A trough of low pressure will be located over the northwest corner of our state for much of this weekend. With this type of pattern it is difficult to pinpoint the timing of the precipitation and amounts, thus lower confidence. However there is higher confidence that it will be cloudy at times, with precipitation on and off for the mountains.
+<br> 
+For today the best chance of precipitation will be for this afternoon, most likely near and to the east of Mt. Baker.
+<br>
+Saturday morning a band of precipitation moves in with some brief steady precipitation, followed by light scattered showers for the afternoon.
+<br> 
+Sunday there will still be plenty of clouds, so precipitation on and off for the day. Most models are expecting lighter amounts, some models even keep it dry, which I doubt.   
+<br> 
+In Seattle this weekend? High close to 70 and a 30% chance of showers for both days. Any rain will be very limited.
 
 </div>
 </div>
@@ -67,16 +75,16 @@ View of the Month: Chair Peak
 [metaslider id="1280"]
 </div>
 <div style="grid-column: 2">
-<h6 style="text-align: center; padding: 5px"><strong>WEST CASCADES</strong></h6>
+<h6 style="text-align: center; padding: 5px"><strong>NORTH CASCADES</strong></h6>
 <p style="font-size: 14px; padding: 15px">
 
 
-<!-- U P D A T E  S A T  W E S T  C A S C A D E S -->
-WINDS: winds and winds and winds and winds
+<!-- U P D A T E  S A T  N O R T H  C A S C A D E S -->
+Mostly to partly cloudy with a 30% chance of precipitation on and off for the day. Chance of some isolated thundershowers.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'.
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: 0.40 to 0.80" in water equivalent
 
 
 <br></p></div>
@@ -95,11 +103,11 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S A T  O L Y M P I C S -->
-WINDS: winds and winds and winds and winds
+Mostly to partly cloudy with a 60% chance of precipitation on and off for the day.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: 0.20 to 0.40" in water equivalent
 
 <br></p></div>
 <div style="grid-column: 3; min-width: 250px">
@@ -117,12 +125,11 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S A T  E A S T  C A S C A D E S -->
-WINDS: winds and winds and winds and winds
+Mostly to partly cloudy with a 60% chance of precipitation on and off for the day. Chance of some isolated thundershowers.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'
 <br>
-PRECIPITATION: lots of precipitation to talk about
-
+Precipitation: 0.20 to 0.40" water equivalent, higher if thundershowers form. 
 
 <br></p></div>
 <div style="grid-column: 3; min-width: 250px">
@@ -140,11 +147,13 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S A T  S T E V E N S & S N O Q -->
-WINDS AT 5,000': winds and winds and winds and winds
+Mostly to partly cloudy with a 60% chance of precipitation on and off for the day. Chance of some isolated thundershowers.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: 0.20 to 0.40" in water equivalent, higher if thundershowers form.
+<br>
+At the 5000' level, winds of 15 mph; high near 52.
 
 
 <br></p></div>
@@ -163,11 +172,12 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S A T  W A S H I N G T O N  P A S S -->
-WINDS: winds and winds and winds and winds
+Mostly to partly cloudy with a 60% chance of precipitation on and off for the day. Chance of some isolated thundershowers.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: 0.30 to 0.60" in water equivalent, higher if thundershowers form.
+
 
 <br></p></div>
 <div style="grid-column: 3; min-width: 250px">
@@ -185,13 +195,9 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S A T  C O L U M B I A  B A S I N -->
-WINDS: winds and winds and winds and winds
+Mostly sunny with some clouds at times
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
-<br>
-PRECIPITATION: lots of precipitation to talk about
-<br>
-HIGH: F
+High 82.
 
 
 <br></p></div>
@@ -200,22 +206,35 @@ HIGH: F
 </div>
 </article>
 
+<div style="display: grid; margin-left: auto; margin-right: auto; text-align: center">
+<h6 style="text-align: center; padding: 5px"><strong>SOUTH CASCADES</strong></h6>
+
+
+<!-- U P D A T E  S A T  S O U T H  C A S C A D E S -->
+Mostly to partly cloudy with a 60% chance of precipitation on and off for the day. Chance of some isolated thundershowers.<br>
+Cloud bases at 4000/5000' and tops 14,000'.<br>
+Precipitation: 0.20 to 0.40" in water equivalent, higher if thundershowers form.
+
+[metaslider id="1474"]
+</div>
+</div>
+
 <h3 style="text-align: center; color: darkgreen">SUNDAY</h3>
 <article style="display: grid; grid-columns: 3">
 <div style="grid-column: 1; min-width: 250px">
 [metaslider id="1664"]
 </div>
 <div style="grid-column: 2">
-<h6 style="text-align: center; padding: 5px"><strong>WEST CASCADES</strong></h6>
+<h6 style="text-align: center; padding: 5px"><strong>NORTH CASCADES</strong></h6>
 <p style="font-size: 14px; padding: 15px">
 
 
-<!-- U P D A T E  S U N  W E S T  C A S C A D E S -->
-WINDS: winds and winds and winds and winds
+<!-- U P D A T E  S U N  N O R T H  C A S C A D E S -->
+Partly cloudy with a 40% chance of some showers on and off for the day. Several models are keeping it dry all day, which I doubt.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'.
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: up to 0.20" in water equivalent, could be higher depending on track of the low.
 
 
 <br></p></div>
@@ -234,11 +253,11 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S U N  O L Y M P I C S -->
-WINDS: winds and winds and winds and winds
+Partly cloudy with a 40% chance of some showers on and off for the day. Several models keeping it dry all day which I doubt.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: up to 0.20" in water equivalent, could be higher depending on track of the low.
 
 
 <br></p></div>
@@ -257,11 +276,11 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S U N  E A S T  C A S C A D E S -->
-WINDS: winds and winds and winds and winds
+Partly cloudy with a 30% chance of showers on and off for the day. Several models keeping it dry all day which I doubt.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Clouds vary too greatly to determine heights. 
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: up to 0.10" in water equivalent, could be higher depending on track of the low. 
 
 
 <br></p></div>
@@ -280,11 +299,14 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S U N  S T E V E N S & S N O Q -->
-WINDS AT 5,000': winds and winds and winds and winds
+Partly cloudy with a 40% chance of some showers on and off for the day. Several models keeping it dry all day which I doubt.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Cloud bases at 4000/5000' and tops 14,000'
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: up to 0.20" in water equivalent, could be higher depending on track of the low. 
+<br>
+At the 5000' level, winds of 10 mph for the afternoon and high near 52.
+
 
 <br></p></div>
 <div style="grid-column: 3; min-width: 250px">
@@ -302,11 +324,12 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S U N  W A S H I N G T O N  P A S S -->
-WINDS: winds and winds and winds and winds
+Partly cloudy with a 30% chance of showers on and off for the day. Several models keeping it dry all day which I doubt.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
+Clouds vary too greatly to determine heights. 
 <br>
-PRECIPITATION: lots of precipitation to talk about
+Precipitation: up to 0.10" in water equivalent, could be higher depending on track of the low. 
+
 
 <br></p></div>
 <div style="grid-column: 3; min-width: 250px">
@@ -324,13 +347,9 @@ PRECIPITATION: lots of precipitation to talk about
 
 
 <!-- U P D A T E  S U N  C O L U M B I A  B A S I N -->
-WINDS: winds and winds and winds and winds
+Mostly sunny with some high clouds.
 <br>
-CLOUDS: clouds and clouds and clouds and clouds
-<br>
-PRECIPITATION: lots of precipitation to talk about
-<br>
-HIGH: F
+High of 80.
 
 
 <br></p></div>
@@ -339,7 +358,18 @@ HIGH: F
 </div>
 </article>
 
-<div style="display: grid; margin-left: auto; margin-right: auto">
+<div style="display: grid; margin-left: auto; margin-right: auto; text-align: center">
+<h6 style="text-align: center; padding: 5px"><strong>SOUTH CASCADES</strong></h6>
+
+
+<!-- U P D A T E  S U N  S O U T H  C A S C A D E S -->
+Partly cloudy with a 40% chance of some showers on and off for the day. Several models are keeping it dry all day, which I doubt.
+<br>
+Cloud bases at 4000/5000' and tops 14,000'.
+<br>
+Precipitation: up to 0.20" in water equivalent, could be higher depending on track of the low.
+
+
 [metaslider id="797"]
 </div>
 </div>
