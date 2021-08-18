@@ -1,0 +1,175 @@
+<style>
+
+@media screen and (max-width: 700px) {
+.mobile  {
+	width: 100%;
+display: grid;
+grid-template-columns: "100vw";
+text-align: center; 
+}
+#nofloat {
+float: none;
+display: block;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+}
+#margin
+{
+float: none;
+margin-left: 20px;
+margin-right: 20px;
+}
+@media screen and (min-width: 701px and max-width: 961px) {
+#spacing { 
+display: block;
+width: auto;
+}
+}
+</style>
+
+
+
+<div  id="about-1" style="background-color: #ffffff;" data-id="about-big-images-section" data-category="about" class="about-big-images-section">
+<div  class="gridContainer">
+<div  class="about-big-images-textrow">
+<div  class="about-big-images-textcol dynamic-color" data-type="column"> 
+
+<article style="background-color: black; border: snow solid 4px">
+<h1 style="color: snow">RAIN AND SNOW FORECASTING</h1>
+<p style="color: white; padding-left: 10px; padding-right: 10px;">
+All forecasts are subject to dramatic changes without much warning. Some types of forecasts, however, are more reliable than others. Winds and atmospheric pressure are the easiest parameters to forecast because the chance of them dramatically changing quickly is smaller than the others. Automated precipitation models have bottom-ranking forecast efficiency: they are due to fluctuate widely by both amounts and timing. 
+<br><br>
+The precipitation process is highly dependent on other atmospheric forces. Concomitantly, precipitation forecasts are highly subject to the errors in the forecasts for other atmospheric parameters. With the exception of systems already organized over vast distances, precipitation processes including cloud formation occur on a scale smaller than a 4-km grid. Even in 2019, the only shot at getting the forecast very close to correct is to tie together a myriad of little guesses and assumptions to substitute perfect real-time data coverage – the post-processing phase, as it’s called in the weather industry. Watching the long-term behavior of individual forecast models provides practical insight into their inadequacies, which builds a meteorologist’s instincts regarding model trustworthiness.
+<br><br>
+Some precipitation forecasting difficulties are characteristic to specific locations. Terrain, for instance, reshapes and redirects the approach of incoming weather systems. For instance, many locations aren’t distinctly calculated by a 36-km grid spacing, which provides the longest-term forecasts available. Not until about a week before a storm event do the first and most statistically inaccurate 12-km grid spacing models publish, allowing for deeper insight into a potential storm’s approach. 12-km spacing is, however, still a rough estimate, allowing for persistent miscalculations pertaining to the location, timing and precipitation totals of weather events. 4-km models begin to detect weather anomalies such as Puget Sound Convergence Zone events and well resolve the Cascades and Olympics but still cannot well negotiate many smaller obstructions and weather features. Models with closer grid spacing have long been in development but are still little more than experimental and use shortcuts due to computing resource scarcity, leaving much room for error until some day in the distant future when they may be perfected.
+<br><br>
+Computer models run from incapable to largely incapable when it comes to adequately considering the effects of the interactions of ice, surface friction, water, varying local terrain, varying altitudes, etc. with the atmosphere.
+<br><br>
+The raw components of weather formation occur on a scale much smaller. Even large eddies, composed of millions of eventually assembled smaller eddies, are only about 1 km<sup>2</sup> wide. Well beyond the capacities of current models is inertial subrange turbulence: shear turbulence from eddies of differing sizes interacting. Forecasting large thermals is presently limited to around a half hour out. Forecasting turbulence requires an infinite set of equations and variables, which are reduced in generalized applications to first and second order equations, to model its net influence. Until forecast models accommodate small-scale meteorology as well as large-scale, even the best models will have considerable room for error.
+</p>
+
+<h3 style="color: snow">MAXIMIZING EQUIPMENT DEPLOYMENT EFFICIENCY</h3>
+
+<p style="color: white; padding-left: 10px; padding-right: 10px">During significant rain events, stormwater treatment facilities deploy expensive equipment for testing and often must fly in engineers to ensure everything operates properly. Improperly forecasting sufficient stormwater wastes equipment because it can’t be redeployed.
+<br><br>
+An efficient way to hedge bets against possible losses from misdiagnosing how much it's going to rain or snow is to hire a professional meteorologist to better determine when resources should be deployed and crew should be alerted. An experienced forecaster can better hone in on when some models may be less accurate than others.</p>
+<br><br>
+<div style="margin: 10px; border: solid white 2px">
+<p style="color: white; padding-left: 10px; padding-right: 10px">I recently worked for the engineers at NEORSD, who needed to better anticipate precipitation events above 0.25" in order to decide when to conduct water tests and properly staff the facility. The expenditures related to properly preparing made a seasoned meteorologist's extra opinion a lucrative addition, despite the cost of hiring me.
+<br><br>
+Stormwater testing is attempted during events projected to endure well over half an inch of rain within roughly twenty-four hours. Tests may fail due to both insufficient stormwater and an incorrect deployment time range.</p>
+</div>
+<br><br>
+<p style="color: white; padding-left: 10px; padding-right: 10px">While forecasting, I consult the GFS, NAM, ECMWF, UKMO, HRRR, RAP, ICON, ARPEGE, ACCESS-G, GEM and other weather models consistently. Like getting better over time using a set of physical tools, long-term, consistent exposure to the models opens the door for meteorologists to start anticipating outlier figures and judge the real-time performance efficacy of models.
+<br><br>
+A seasoned meteorologist much more often than naught creates superior forecasts to those offered by automated systems. Some meteorological firms make facilities pay for their services just to relegate the work to their own, self-tested, self-approved, automated systems. At Precipitation Forecasting, the ship is always manned.
+</p>
+<br><br><br>
+
+
+<h2 style="color: snow">The Need for Custom Snow and Ice Forecasting - Case Example: the Schools of Western Washington</h2>
+<img style="float: right; padding: 4px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/Seattle-hill.jpg" id="margin"/>
+<p style="color: white; padding-left: 10px; padding-right: 10px">
+Every year, inclement weather brings hazardous road conditions from snow, freezing rain and black ice.
+</p>
+
+<h3 style="color: snow">SNOW FORECASTING FOR WESTERN WASHINGTON</h3>
+<p style="color: white; padding-left: 10px; padding-right: 10px">Snohomish Hill Schools in western Washington begin to worry about winter weather about a month into fall. At low elevations, snow is normally limited from mid-November to early-March. Even during the winter, most precipitation in the area falls as rain. Lowland precipitation west of the Cascades starts at 40°F, so the majority often precipitates before approaching snow formation. It requires a kick of cold air, which is typically well blocked by the Cascades and Rockies.
+<img style="float: left; padding: 4px; width: 370px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/Snohomish-hill.jpg"  id="nofloat"/>
+<br><br>
+Certain weather situations, such as a zone of low atmospheric surface pressure, can draw cold air from the Canadian interior southwest through the Fraser River valley. The funneled air bursts out of the west Cascades in what can be sudden, strong northeasterly winds, nearly focused on Bellingham, WA. As the air spills out, temperature forecasts around the Sound often drop quickly and the depth of the critical change is sometimes missed by models. Cold air also may push into the Greater Seattle area from eastern Washington through Snoqualmie Pass if easterly winds are strong enough.
+<img style="padding: 4px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/Seattle-offroad.jpg" />
+<br><br>
+Some western Washington forecasts struggle for easily understandable reasons, given the most quality forecasts have a grid spacing of 4-km. Most hills, for instance, possess microclimates of their own, based on windward directions, solar angles, vegetative and soil differences, etc. Infrequently measured data over the Pacific limits potential warning of incoming systems and the count of model updates before a storm hits. Many forecast areas are commonly in precipitation shadows, often leading to excessive forecast totals or unstable forecasts, where a school district prognostically hops in and out of a shadow. Snow cover is far more often than naught quite non-uniform between the mountain ranges, with hills often having a snowy side and a more radiation-absorbent bare ground side. Models that are largely wrong about existent snow cover can make a multiple degree forecast error.
+<br><br>
+Essential to forecasting winter weather, local temperature contrasts have important regional characteristics. More typically than naught, western Washington has small but noteworthy nighttime local temperature variations. Pacific Northwest urban heat island effects can contribute +5-10°F in their cores and dramatically sway surrounding temperature distributions after a day of sun. The bottom of a hill just a few hundred feet high is often 2-7°F cooler than its top. Cooling sea breezes and warming land breezes are very frequent and function without requiring an incoming atmospheric disturbance.
+<br><br>
+The El Niño Southern Oscillation (ENSO) adds character to local snowfall patterns. Recent La Niña years have typically dropped as much as three times the regional snowfall seen during El Niño years. Paradoxically, regional record snowfall years tend to be ENSO near-neutral years: those with a very typical equatorial Pacific Ocean temperature distribution. A one degree difference in the 850 mb atmospheric level’s temperature – a pivot around -8°C – can differentiate rainfall and snowfall. Southerly or southwesterly flow often feeds moisture to the area but is often too warm for snow. Northerly winds often bring the cold needed to turn rain to snow but tend to be drier, which enhances evaporation, limiting ground-reaching precipitation. Snow and ice on the ground may be enough to shift potential rainfall into snowfall but may not be adequately noticed by models: online webcams can add necessary detail. Relative to the neighboring terrain, each locality responds differently to the region’s characteristic wind patterns. Terrain with variations unnoticeable on 12-km or 4-km grid resolution is more error-prone.
+<br><br>
+Melting and evaporation can cool air that’s in the mid-30°F enough to change rain into snow or a wintry mix. Heavier precipitation yields increased melting and evaporation, which further cools the air. Prolonged regional cold air, especially after winter has already taken over the landscape, can transition rain from an encroaching Low into snow.
+<br><br>
+School snow forecasting using the aforementioned forecasting tips by molding them to a specific district can yield better weather judgments. Doing so, however, would require meteorologically confident staff monitoring the weather all winter, all day and all night. Another complication is that models aren’t everything: some of the knowledge and insight that steers a professional meteorologist’s decisions may not even come from computer-generated clues.
+<br><br>
+West of Oklahoma City, southeastern Washington sees the most freezing rain: 10-20 annual hours. Sometimes that weather can extend west, namely through the Columbia Gorge. In that and other weather scenarios, icy conditions may manifest locally. frozen street Freezing rain is very dangerous when it does form but is tricky to predict. A delicate balance of temperatures aloft must be maintained in order for precipitation to not fall as snow, mixed precipitation or warm (> 32℉) rain. The delicate balance can be strengthened by cold valley air if warm, moist, mountain air also exists. Temperature-changing flows, such as through river valleys and breaks in mountain ranges, need to be closely monitored and accounted for in a winterly western Washington forecast.
+<img style="float: left; padding: 4px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/Washington-Pass.jpg"  id="nofloat"/>
+<br><br>
+Mixed precipitation, much more common than freezing rain, also poses a big regional traffic risk. If it’s a big, sloppy mess, it better not all freeze the next morning or while school is in session.
+<br><br>
+Dense fog under high pressure is common in western Washington and, far more often than freezing rain, produces black ice. Intersections, bridges, windswept sections of roads and other areas of notable automobile heating and subsequent cooling are particularly vulnerable to its formation. Black ice may also form from incoming cold air freezing both freshly fallen rain and thawed snowmelt.
+<br><br>
+Beyond safety, turning to a seasoned meteorologist for help with school closing decisions can save time, public funds and headaches.
+<img style="float: right; padding: 4px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/ice-road.jpg" />
+</article>
+
+</div> </div> </div> </div>
+
+
+<div  id="content-3" style="background-color: #f0f0f0;" data-label="Content" data-id="content-image-left" data-category="content" class="content-left-image-section">
+<div  class="gridContainer">
+<div  class="row">
+
+<table><tr><td>
+<div style="width: 350px; padding: 20px" id="spacing">  [metaslider id="205"] </div></td>
+
+<td>
+<h2  class="">BACKGROUND</h2>
+<br>
+<p  class="large_text">Bachelor's of Science - Meteorology - Texas A&M 2012<br><br>
+Trained by Senior Meteorologist <a href="https://www.westcoastweather.com/our-weather-team/">Michael Fagin</a> Since 2014<br><br>
+Have Worked on Projects with Certified Consulting Meteorologist Michael R. Witiw, PhD
+<hr>
+2019 Research: <a href="https://www.westcoastweather.com/relating-tornadoes-and-usgs-em-data/" target="_blank" rel="noopener">Relating F4 and F5 Tornadoes in the United States with Solar Electromagnetic and Geomagnetic Data</a>
+
+</p>
+</td></tr></table>
+</div>
+
+<div  class="about-big-images-bottomrow">
+
+<table><tr>
+<td class="mobile" style="padding-right: 5px"><p><br>
+<a href="https://www.westcoastweather.com/"><strong>West Coast Weather</strong></a>  June 2014 - Present<br>
+<a href="https://www.lwsd.org/"><strong>Lake Washington School District</strong></a>  June 2014 - Present<br>
+<a href="https://kingcounty.gov/depts/dnrp/wtd/system/south.aspx"><strong>King County Renton Treatment Plant</strong></a>  June 2014 - Present<br>
+<a href="https://everestweather.com/"><strong>Everest Weather</strong></a>  August 2014 - Present<br>
+<a href="https://alaskamountainweather.com/"><strong>Alaska Mountain Weather</strong></a>  October 2014 - Present<br>
+<a href="https://brownandcaldwell.com/"><strong>Brown and Caldwell</strong></a>  Contract June 2014 - July 2015<br>
+<a href="https://www.neorsd.org/"><strong>Northeast Ohio Regional Sewer District</strong></a>  Contract July 2019 - July 2020<br>
+Comments from NEORSD Project Manager: "I really appreciate your efforts and quick responses during transitional weather. I am also very pleased with the accuracy and consistency that you were able to achieve." “Thank you both for the hard work and professionalism. I look forward to working with you again in the future.”
+
+</p></td>
+<td class="mobile"><div style="width: 350px">[metaslider id="181"]</div></td>
+</tr></table>
+
+<table><tr><td class="mobile"><div style="width: 350px">[metaslider id="124"]</div></td>
+
+<td style="padding: 30px" class="mobile"><p><br><br><br><br>11 Mountains and Mountain Ranges of Professional Weather Forecasting Experience<br>- Custom International Forecasts for Climbing Expeditions</p></td>
+</tr></table>
+
+</div></div></div>
+
+
+
+
+
+
+<div  id="numbers" data-label="Numbers" data-id="numbers-section" data-category="numbers" data-bg="transparent" class="numbers-section" data-parallax-depth="20">
+<div  class="gridContainer dynamic-color">
+<div  class="numbers-itemcol"> <h2  class="numbers-numbertext">RAIN</h2> <h3  class="numbers-titletext">FORECASTS</h3> </div>
+<div  class="numbers-itemcol"> <h2  class="numbers-numbertext">SNOW</h2> <h3  class="numbers-titletext">FORECASTS</h3> </div> 
+<div  class="numbers-itemcol-last"> <h2  class="numbers-numbertext">CUSTOM</h2> <h3  class="numbers-titletext">FORECASTS</h3> </div>
+</div></div>
+
+<div  id="contact-4" data-label="Contact" data-id="contact-section" data-category="contact" data-bg="transparent" class="contact-section-formsection white-text">
+<div  class="gridContainer">
+<div  class="row_224">
+<div  class="contact-textrow">
+
+<div  class="contact-textcol dynamic-color"> <h2  class="">C&nbsp; O&nbsp; N&nbsp; T&nbsp; A&nbsp; C&nbsp; T</h2> <p  class="white_text"></p> </div>
+
+</div></div>
+
+<div  class="contact-formcol" data-content-shortcode="one_page_express_contact_form shortcode=&quot;wpforms id=&amp;amp;quot;77&amp;amp;quot;&quot;" data-editable="true">[one_page_express_contact_form shortcode="wpforms id=&amp;quot;77&amp;quot;"]</div>
+
+</div></div>
