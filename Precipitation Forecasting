@@ -42,7 +42,7 @@ All forecasts are subject to dramatic changes without much warning. Some types o
 <br><br>
 The precipitation process is highly dependent on other atmospheric forces. Concomitantly, precipitation forecasts are highly subject to the errors in the forecasts for other atmospheric parameters. With the exception of systems already organized over vast distances, precipitation processes including cloud formation occur on a scale smaller than a 4-km grid. Even in 2019, the only shot at getting the forecast very close to correct is to tie together a myriad of little guesses and assumptions to substitute perfect real-time data coverage – the post-processing phase, as it’s called in the weather industry. Watching the long-term behavior of individual forecast models provides practical insight into their inadequacies, which builds a meteorologist’s instincts regarding model trustworthiness.
 <br><br>
-Some precipitation forecasting difficulties are characteristic to specific locations. Terrain, for instance, reshapes and redirects the approach of incoming weather systems. For instance, many locations aren’t distinctly calculated by a 36-km grid spacing, which provides the longest-term forecasts available. Not until about a week before a storm event do the first and most statistically inaccurate 12-km grid spacing models publish, allowing for deeper insight into a potential storm’s approach. 12-km spacing is, however, still a rough estimate, allowing for persistent miscalculations pertaining to the location, timing and precipitation totals of weather events. 4-km models begin to detect weather anomalies such as Puget Sound Convergence Zone events and well resolve the Cascades and Olympics but still cannot well negotiate many smaller obstructions and weather features. Models with closer grid spacing have long been in development but are still little more than experimental and use shortcuts due to computing resource scarcity, leaving much room for error until some day in the distant future when they may be perfected.
+Some precipitation forecasting difficulties are characteristic to specific locations. Terrain, for instance, reshapes and redirects the approach of incoming weather systems. Many locations aren’t distinctly calculated in a 36-km grid spacing, which provides the longest-term forecasts available. Not until about a week before a storm event do the first and most statistically inaccurate 12-km grid spacing models publish, allowing for deeper insight into a potential storm’s approach. 12-km spacing is, however, still a rough estimate, allowing for persistent miscalculations pertaining to the location, timing and precipitation totals of weather events. 4-km models begin to detect weather anomalies such as Puget Sound Convergence Zone events and well resolve the Cascades and Olympics but still cannot well negotiate many smaller obstructions and weather features. Models with closer grid spacing have long been in development but are still little more than experimental and use shortcuts due to computing resource scarcity, leaving much room for error until some day in the distant future when they may be perfected.
 <br><br>
 Computer models run from incapable to largely incapable when it comes to adequately considering the effects of the interactions of ice, surface friction, water, varying local terrain, varying altitudes, etc. with the atmosphere.
 <br><br>
@@ -64,17 +64,18 @@ Stormwater testing is attempted during events projected to endure well over half
 <p style="color: white; padding-left: 10px; padding-right: 10px">While forecasting, I consult the GFS, NAM, ECMWF, UKMO, HRRR, RAP, ICON, ARPEGE, ACCESS-G, GEM and other weather models consistently. Like getting better over time using a set of physical tools, long-term, consistent exposure to the models opens the door for meteorologists to start anticipating outlier figures and judge the real-time performance efficacy of models.
 <br><br>
 A seasoned meteorologist much more often than naught creates superior forecasts to those offered by automated systems. Some meteorological firms make facilities pay for their services just to relegate the work to their own, self-tested, self-approved, automated systems. At Precipitation Forecasting, the ship is always manned.
-</p>
+</p></article>
 <br><br><br>
 
 
+<article style="background-color: black; border: snow solid 4px">
 <h2 style="color: snow">The Need for Custom Snow and Ice Forecasting - Case Example: the Schools of Western Washington</h2>
 <img style="float: right; padding: 4px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/Seattle-hill.jpg" id="margin"/>
 <p style="color: white; padding-left: 10px; padding-right: 10px">
 Every year, inclement weather brings hazardous road conditions from snow, freezing rain and black ice.
 </p>
 
-<h3 style="color: snow">SNOW FORECASTING FOR WESTERN WASHINGTON</h3>
+<h3 style="color: snow">WINTER FORECASTING FOR WESTERN WASHINGTON</h3>
 <p style="color: white; padding-left: 10px; padding-right: 10px">Snohomish Hill Schools in western Washington begin to worry about winter weather about a month into fall. At low elevations, snow is normally limited from mid-November to early-March. Even during the winter, most precipitation in the area falls as rain. Lowland precipitation west of the Cascades starts at 40°F, so the majority often precipitates before approaching snow formation. It requires a kick of cold air, which is typically well blocked by the Cascades and Rockies.
 <img style="float: left; padding: 4px; width: 370px" src="http://precipitationforecasting.com/wp-content/uploads/2021/08/Snohomish-hill.jpg"  id="nofloat"/>
 <br><br>
@@ -154,7 +155,7 @@ Comments from NEORSD Project Manager: "I really appreciate your efforts and quic
 
 
 
-<div  id="numbers" data-label="Numbers" data-id="numbers-section" data-category="numbers" data-bg="transparent" class="numbers-section" data-parallax-depth="20">
+<a name="contact"><div  id="numbers" data-label="Numbers" data-id="numbers-section" data-category="numbers" data-bg="transparent" class="numbers-section" data-parallax-depth="20"></a>
 <div  class="gridContainer dynamic-color">
 <div  class="numbers-itemcol"> <h2  class="numbers-numbertext">RAIN</h2> <h3  class="numbers-titletext">FORECASTS</h3> </div>
 <div  class="numbers-itemcol"> <h2  class="numbers-numbertext">SNOW</h2> <h3  class="numbers-titletext">FORECASTS</h3> </div> 
