@@ -1,0 +1,34 @@
+<style>
+a:hover {
+  color: snow;
+}
+a:visited {
+  color: snow;
+}
+
+</style>
+<article style="background-color: #C0C0C0; margin-left: 8%; margin-right: 8%; margin-top: 25px; padding-top: 20px; border: 4px solid #DBE2E9">
+
+<tr><td>
+<h1 style="text-align: center; font-size: 32px; margin-bottom: 20px; letter-spacing: 4px; word-spacing: 2px; text-shadow: -2px -2px #FAF9F6">Michael Fagin</h1>
+<p style="color: #000000; margin-left: 40px; margin-right: 40px">
+Michael entered the weather forecasting profession an Operational Meteorologist for the company he started in the mid-1990s, <a href="https://washingtononlineweather.com">Washington Online Weather (WOW)</a>. For decades, WOW provided mountain forecasts for the Washington Cascades and Olympics to active outdoor enthusiasts, as well as serious mountaineers. Michael went on to start <a href="https://everestweather.com/" target="_blank" rel="noopener">Mt. Everest Weather Forecasting</a> to provide custom weather forecasts for Everest expedition groups and for other major mountains. 
+</p>
+<img style="float: right; padding: 10px" src="http://washingtononlineweather.com/wp-content/uploads/2022/09/Everestclimbers.png"/>
+
+<p style="color: #000000; margin-left: 40px; margin-right: 40px">
+Michael also provides storm warnings to some local governments in the Greater Puget Sound area, covering wind, snow and atmospheric river events.  Additionally, he provides other weather services through <a href="https://www.westcoastweather.com/" target="_blank" rel="noopener">West Coast Weather</a> and contributes to <a href="https://travelandweather.com/weather-and-wine/" target="_blank" rel="noopener">Weather and Wine</a> regarding weather and climate trends in key wine regions. In his spare time, Michael is always outdoors hiking, biking or kayaking. 
+</p>
+<img style="display: block; margin-left: auto; margin-right: auto" src="http://washingtononlineweather.com/wp-content/uploads/2022/09/MichaelFagin.png"/>
+</td>
+</article>
+
+<article style="background-color: #C0C0C0; margin-left: 8%; margin-right: 8%; margin-top: 25px; border: 4px solid #DBE2E9">
+<td>
+<h1 style="text-align: center; font-size: 32px; margin-bottom: 20px; margin-top: 20px; letter-spacing: 4px; word-spacing: 2px; text-shadow: -2px -2px #FAF9F6">Powder Alerts</h1>
+<p style="color: #000000; margin-left: 40px; margin-right: 40px">
+<a href="https://powderpoobah.com/alerts/latest" target="_blank" rel="noopener"><img style="float: right; padding: 10px" src="http://washingtononlineweather.com/wp-content/uploads/2022/09/PowderAlerts.png"/></a>
+Starting with the 2022-2023 ski season, Michael will team up with Meteorologist Larry Schick (a.k.a. “Grand Poobah of Powder”) and the over a quarter of a century long running <a href="https://powderpoobah.com/alerts/latest" target="_blank" rel="noopener">Latest Powder Alerts</a> for the Washington Cascades, focusing on some of Washington's most popular ski areas: Stevens Pass, Snoqualmie Pass and Crystal Mountain. Other areas, such as Mt. Baker, are also covered. Powder Alerts start in the fall when ski areas open and are issued twice a week through April. <a href="https://powderpoobah.com/#home-v2" target="_blank" rel="noopener">Sign up for free powder alerts</a>.
+</p>
+</td></tr>
+</article>
